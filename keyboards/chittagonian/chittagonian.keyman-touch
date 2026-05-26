@@ -1,0 +1,190 @@
+{
+  "phone": {
+    "layer": [
+      {
+        "id": "default",
+        "row": [
+          {
+            "id": 1,
+            "key": [
+              { "id": "K_Q", "text": "q" }, { "id": "K_W", "text": "w" }, { "id": "K_E", "text": "e", "sk": [ { "id": "U_0065_ACUTE", "text": "é" }, { "id": "U_0065_CARON", "text": "ě" }, { "id": "U_0065_CIRCUMFLEX", "text": "ê" }, { "id": "U_0065_TILDE", "text": "ẽ" } ] }, { "id": "K_R", "text": "r" },
+              { "id": "K_T", "text": "t", "sk": [ { "id": "U_0167", "text": "ŧ" } ] },
+              { "id": "K_Y", "text": "y" }, { "id": "K_U", "text": "u", "sk": [ { "id": "U_0075_ACUTE", "text": "ú" }, { "id": "U_0075_CARON", "text": "ǔ" }, { "id": "U_0075_CIRCUMFLEX", "text": "û" }, { "id": "U_0075_TILDE", "text": "ũ" } ] }, { "id": "K_I", "text": "i", "sk": [ { "id": "U_0069_ACUTE", "text": "í" }, { "id": "U_0069_CARON", "text": "ǐ" }, { "id": "U_0069_CIRCUMFLEX", "text": "î" }, { "id": "U_0069_TILDE", "text": "ĩ" } ] }, { "id": "K_O", "text": "o", "sk": [ { "id": "U_006F_ACUTE", "text": "ó" }, { "id": "U_006F_CARON", "text": "ǒ" }, { "id": "U_006F_CIRCUMFLEX", "text": "ô" }, { "id": "U_006F_TILDE", "text": "õ" } ] }, { "id": "K_P", "text": "p" }
+            ]
+          },
+          {
+            "id": 2,
+            "key": [
+              { "id": "K_A", "text": "a", "sk": [ { "id": "U_0061_ACUTE", "text": "á" }, { "id": "U_0061_CARON", "text": "ǎ" }, { "id": "U_0061_CIRCUMFLEX", "text": "â" }, { "id": "U_0061_TILDE", "text": "ã" } ] }, { "id": "K_S", "text": "s" },
+              { "id": "K_D", "text": "d", "sk": [ { "id": "U_0111", "text": "đ" } ] },
+              { "id": "K_F", "text": "f" }, { "id": "K_G", "text": "g" }, { "id": "K_H", "text": "h" }, { "id": "K_J", "text": "j" }, { "id": "K_K", "text": "k" }, { "id": "K_L", "text": "l" }
+            ]
+          },
+          {
+            "id": 3,
+            "key": [
+              { "id": "K_SHIFT", "text": "▲", "next": "shift", "width": "1.5" },
+              { "id": "K_Z", "text": "z" }, { "id": "K_X", "text": "x" }, { "id": "K_C", "text": "c" }, { "id": "K_V", "text": "v" }, { "id": "K_B", "text": "b" }, { "id": "K_N", "text": "n" }, { "id": "K_M", "text": "m" },
+              { 
+                "id": "U_0254", 
+                "text": "ɔ", 
+                "sk": [
+                  { "id": "U_0254_ACUTE", "text": "ɔ́" }, { "id": "U_0254_CARON", "text": "ɔ̌" }, { "id": "U_0254_CIRCUMFLEX", "text": "ɔ̂" }, { "id": "U_0254_TILDE", "text": "ɔ̃" }
+                ]
+              },
+              { "id": "K_BKSP", "text": "⌫", "width": "1.5" }
+            ]
+          },
+          {
+            "id": 4,
+            "key": [
+              { "id": "K_LOPT", "text": "🌐", "width": "1.5" },
+              { "id": "K_NUMBERS", "text": "123", "width": "1.5" },
+              { "id": "K_SPACE", "text": " ", "width": "6.5" },
+              { "id": "K_ENTER", "text": "⏎", "width": "2.0" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shift",
+        "row": [
+          {
+            "id": 1,
+            "key": [
+              { "id": "K_Q", "text": "Q" }, { "id": "K_W", "text": "W" }, { "id": "K_E", "text": "E", "sk": [ { "id": "U_0045_ACUTE", "text": "É" }, { "id": "U_0045_CARON", "text": "Ě" }, { "id": "U_0045_CIRCUMFLEX", "text": "Ê" }, { "id": "U_0045_TILDE", "text": "Ẽ" } ] }, { "id": "K_R", "text": "R" },
+              { "id": "K_T", "text": "T", "sk": [ { "id": "U_0166", "text": "Ŧ" } ] },
+              { "id": "K_Y", "text": "Y" }, { "id": "K_U", "text": "U", "sk": [ { "id": "U_0055_ACUTE", "text": "Ú" }, { "id": "U_0055_CARON", "text": "Ǔ" }, { "id": "U_0055_CIRCUMFLEX", "text": "Û" }, { "id": "U_0055_TILDE", "text": "Ũ" } ] }, { "id": "K_I", "text": "I", "sk": [ { "id": "U_0049_ACUTE", "text": "Í" }, { "id": "U_0049_CARON", "text": "Ǐ" }, { "id": "U_0049_CIRCUMFLEX", "text": "Î" }, { "id": "U_0049_TILDE", "text": "Ĩ" } ] }, { "id": "K_O", "text": "O", "sk": [ { "id": "U_004F_ACUTE", "text": "Ó" }, { "id": "U_004F_CARON", "text": "Ǒ" }, { "id": "U_004F_CIRCUMFLEX", "text": "Ô" }, { "id": "U_004F_TILDE", "text": "Õ" } ] }, { "id": "K_P", "text": "P" }
+            ]
+          },
+          {
+            "id": 2,
+            "key": [
+              { "id": "K_A", "text": "A", "sk": [ { "id": "U_0041_ACUTE", "text": "Á" }, { "id": "U_0041_CARON", "text": "Ǎ" }, { "id": "U_0041_CIRCUMFLEX", "text": "Â" }, { "id": "U_0041_TILDE", "text": "Ã" } ] }, { "id": "K_S", "text": "S" },
+              { "id": "K_D", "text": "D", "sk": [ { "id": "U_0110", "text": "Đ" } ] },
+              { "id": "K_F", "text": "F" }, { "id": "K_G", "text": "G" }, { "id": "K_H", "text": "H" }, { "id": "K_J", "text": "J" }, { "id": "K_K", "text": "K" }, { "id": "K_L", "text": "L" }
+            ]
+          },
+          {
+            "id": 3,
+            "key": [
+              { "id": "K_SHIFT", "text": "▲", "next": "default", "width": "1.5" },
+              { "id": "K_Z", "text": "Z" }, { "id": "K_X", "text": "X" }, { "id": "K_C", "text": "C" }, { "id": "K_V", "text": "V" }, { "id": "K_B", "text": "B" }, { "id": "K_N", "text": "N" }, { "id": "K_M", "text": "M" },
+              { 
+                "id": "U_0186", 
+                "text": "Ɔ", 
+                "sk": [
+                  { "id": "U_0186_ACUTE", "text": "Ɔ́" }, { "id": "U_0186_CARON", "text": "Ɔ̌" }, { "id": "U_0186_CIRCUMFLEX", "text": "Ɔ̂" }, { "id": "U_0186_TILDE", "text": "Ɔ̃" }
+                ]
+              },
+              { "id": "K_BKSP", "text": "⌫", "width": "1.5" }
+            ]
+          },
+          {
+            "id": 4,
+            "key": [
+              { "id": "K_LOPT", "text": "🌐", "width": "1.5" },
+              { "id": "K_NUMBERS", "text": "123", "width": "1.5" },
+              { "id": "K_SPACE", "text": " ", "width": "6.5" },
+              { "id": "K_ENTER", "text": "⏎", "width": "2.0" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tablet": {
+    "layer": [
+      {
+        "id": "default",
+        "row": [
+          {
+            "id": 1,
+            "key": [
+              { "id": "K_Q", "text": "q" }, { "id": "K_W", "text": "w" }, { "id": "K_E", "text": "e", "sk": [ { "id": "U_0065_ACUTE", "text": "é" }, { "id": "U_0065_CARON", "text": "ě" }, { "id": "U_0065_CIRCUMFLEX", "text": "ê" }, { "id": "U_0065_TILDE", "text": "ẽ" } ] }, { "id": "K_R", "text": "r" },
+              { "id": "K_T", "text": "t", "sk": [ { "id": "U_0167", "text": "ŧ" } ] },
+              { "id": "K_Y", "text": "y" }, { "id": "K_U", "text": "u", "sk": [ { "id": "U_0075_ACUTE", "text": "ú" }, { "id": "U_0075_CARON", "text": "ǔ" }, { "id": "U_0075_CIRCUMFLEX", "text": "û" }, { "id": "U_0075_TILDE", "text": "ũ" } ] }, { "id": "K_I", "text": "i", "sk": [ { "id": "U_0069_ACUTE", "text": "í" }, { "id": "U_0069_CARON", "text": "ǐ" }, { "id": "U_0069_CIRCUMFLEX", "text": "î" }, { "id": "U_0069_TILDE", "text": "ĩ" } ] }, { "id": "K_O", "text": "o", "sk": [ { "id": "U_006F_ACUTE", "text": "ó" }, { "id": "U_006F_CARON", "text": "ǒ" }, { "id": "U_006F_CIRCUMFLEX", "text": "ô" }, { "id": "U_006F_TILDE", "text": "õ" } ] }, { "id": "K_P", "text": "p" }
+            ]
+          },
+          {
+            "id": 2,
+            "key": [
+              { "id": "K_A", "text": "a", "sk": [ { "id": "U_0061_ACUTE", "text": "á" }, { "id": "U_0061_CARON", "text": "ǎ" }, { "id": "U_0061_CIRCUMFLEX", "text": "â" }, { "id": "U_0061_TILDE", "text": "ã" } ] }, { "id": "K_S", "text": "s" },
+              { "id": "K_D", "text": "d", "sk": [ { "id": "U_0111", "text": "đ" } ] },
+              { "id": "K_F", "text": "f" }, { "id": "K_G", "text": "g" }, { "id": "K_H", "text": "h" }, { "id": "K_J", "text": "j" }, { "id": "K_K", "text": "k" }, { "id": "K_L", "text": "l" }
+            ]
+          },
+          {
+            "id": 3,
+            "key": [
+              { "id": "K_SHIFT", "text": "▲", "next": "shift", "width": "1.5" },
+              { "id": "K_Z", "text": "z" }, { "id": "K_X", "text": "x" }, { "id": "K_C", "text": "c" }, { "id": "K_V", "text": "v" }, { "id": "K_B", "text": "b" }, { "id": "K_N", "text": "n" }, { "id": "K_M", "text": "m" },
+              { 
+                "id": "U_0254", 
+                "text": "ɔ", 
+                "sk": [
+                  { "id": "U_0254_ACUTE", "text": "ɔ́" }, { "id": "U_0254_CARON", "text": "ɔ̌" }, { "id": "U_0254_CIRCUMFLEX", "text": "ɔ̂" }, { "id": "U_0254_TILDE", "text": "ɔ̃" }
+                ]
+              },
+              { "id": "K_BKSP", "text": "⌫", "width": "1.5" }
+            ]
+          },
+          {
+            "id": 4,
+            "key": [
+              { "id": "K_LOPT", "text": "🌐", "width": "1.5" },
+              { "id": "K_NUMBERS", "text": "123", "width": "1.5" },
+              { "id": "K_SPACE", "text": " ", "width": "6.5" },
+              { "id": "K_ENTER", "text": "⏎", "width": "2.0" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shift",
+        "row": [
+          {
+            "id": 1,
+            "key": [
+              { "id": "K_Q", "text": "Q" }, { "id": "K_W", "text": "W" }, { "id": "K_E", "text": "E", "sk": [ { "id": "U_0045_ACUTE", "text": "É" }, { "id": "U_0045_CARON", "text": "Ě" }, { "id": "U_0045_CIRCUMFLEX", "text": "Ê" }, { "id": "U_0045_TILDE", "text": "Ẽ" } ] }, { "id": "K_R", "text": "R" },
+              { "id": "K_T", "text": "T", "sk": [ { "id": "U_0166", "text": "Ŧ" } ] },
+              { "id": "K_Y", "text": "Y" }, { "id": "K_U", "text": "U", "sk": [ { "id": "U_0055_ACUTE", "text": "Ú" }, { "id": "U_0055_CARON", "text": "Ǔ" }, { "id": "U_0055_CIRCUMFLEX", "text": "Û" }, { "id": "U_0055_TILDE", "text": "Ũ" } ] }, { "id": "K_I", "text": "I", "sk": [ { "id": "U_0049_ACUTE", "text": "Í" }, { "id": "U_0049_CARON", "text": "Ǐ" }, { "id": "U_0049_CIRCUMFLEX", "text": "Î" }, { "id": "U_0049_TILDE", "text": "Ĩ" } ] }, { "id": "K_O", "text": "O", "sk": [ { "id": "U_004F_ACUTE", "text": "Ó" }, { "id": "U_004F_CARON", "text": "Ǒ" }, { "id": "U_004F_CIRCUMFLEX", "text": "Ô" }, { "id": "U_004F_TILDE", "text": "Õ" } ] }, { "id": "K_P", "text": "P" }
+            ]
+          },
+          {
+            "id": 2,
+            "key": [
+              { "id": "K_A", "text": "A", "sk": [ { "id": "U_0041_ACUTE", "text": "Á" }, { "id": "U_0041_CARON", "text": "Ǎ" }, { "id": "U_0041_CIRCUMFLEX", "text": "Â" }, { "id": "U_0041_TILDE", "text": "Ã" } ] }, { "id": "K_S", "text": "S" },
+              { "id": "K_D", "text": "D", "sk": [ { "id": "U_0110", "text": "Đ" } ] },
+              { "id": "K_F", "text": "F" }, { "id": "K_G", "text": "G" }, { "id": "K_H", "text": "H" }, { "id": "K_J", "text": "J" }, { "id": "K_K", "text": "K" }, { "id": "K_L", "text": "L" }
+            ]
+          },
+          {
+            "id": 3,
+            "key": [
+              { "id": "K_SHIFT", "text": "▲", "next": "default", "width": "1.5" },
+              { "id": "K_Z", "text": "Z" }, { "id": "K_X", "text": "X" }, { "id": "K_C", "text": "C" }, { "id": "K_V", "text": "V" }, { "id": "K_B", "text": "B" }, { "id": "K_N", "text": "N" }, { "id": "K_M", "text": "M" },
+              { 
+                "id": "U_0186", 
+                "text": "Ɔ", 
+                "sk": [
+                  { "id": "U_0186_ACUTE", "text": "Ɔ́" }, { "id": "U_0186_CARON", "text": "Ɔ̌" }, { "id": "U_0186_CIRCUMFLEX", "text": "Ɔ̂" }, { "id": "U_0186_TILDE", "text": "Ɔ̃" }
+                ]
+              },
+              { "id": "K_BKSP", "text": "⌫", "width": "1.5" }
+            ]
+          },
+          {
+            "id": 4,
+            "key": [
+              { "id": "K_LOPT", "text": "🌐", "width": "1.5" },
+              { "id": "K_NUMBERS", "text": "123", "width": "1.5" },
+              { "id": "K_SPACE", "text": " ", "width": "6.5" },
+              { "id": "K_ENTER", "text": "⏎", "width": "2.0" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
