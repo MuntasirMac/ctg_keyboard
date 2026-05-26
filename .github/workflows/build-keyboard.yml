@@ -23,10 +23,17 @@ jobs:
 
       - name: Find and Compile Layout Files
         run: |
-          # Automatically find where the .kmn file is sitting and build it
-          KMN_FILE=$(find . -name "*.kmn" | head -n 1)
+          # Find the .kps first to determine the package directory
+          KPS_FILE=$(find . -name "*.kps" | head -n 1)
+          if [ -z "$KPS_FILE" ]; then
+            echo "Error: No .kps file found anywhere in the repository tree!"
+            exit 1
+          fi
+          KPS_DIR=$(dirname "$KPS_FILE")
+          # Find the .kmn in the same directory as the .kps
+          KMN_FILE=$(find "$KPS_DIR" -name "*.kmn" | head -n 1)
           if [ -z "$KMN_FILE" ]; then
-            echo "Error: No .kmn file found anywhere in the repository tree!"
+            echo "Error: No .kmn file found in $KPS_DIR!"
             exit 1
           fi
           echo "Found source file at: $KMN_FILE"
