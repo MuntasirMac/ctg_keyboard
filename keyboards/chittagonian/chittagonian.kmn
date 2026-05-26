@@ -1,8 +1,9 @@
 c Chittagonian Mobile Keyboard Layout with Shift Layer
-store(&VERSION) '17.0'
+store(&VERSION) '10.0'
 store(&NAME) 'Chittagonian Tonal'
-store(&TARGETS) 'web mobile'
+store(&TARGETS) 'mobile web'
 store(&LAYOUTFILE) 'chittagonian.keyman-touch'
+store(&KEYBOARDVERSION) '1.0.0'
 
 begin Unicode > use(main)
 
