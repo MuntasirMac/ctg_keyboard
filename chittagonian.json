@@ -1,0 +1,15 @@
+{
+  "id": "chittagonian",
+  "name": "Chittagonian Tonal",
+  "author": "MuntasirMac",
+  "version": "1.0.0",
+  "languages": [
+    {
+      "id": "ctg",
+      "name": "Chittagonian"
+    }
+  ],
+  "packageFilename": "chittagonian.kmp",
+  "jsFilename": "chittagonian.js",
+  "lastModifiedDate": "2026-05-26T12:00:00Z"
+}

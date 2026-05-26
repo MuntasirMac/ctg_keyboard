@@ -1,0 +1,11 @@
+c Chittagonian Mobile Keyboard Layout with Shift Layer
+store(&VERSION) '10.0'
+store(&NAME) 'Chittagonian Tonal'
+store(&TARGETS) 'mobile'
+store(&LAYOUT) 'chittagonian.keyman-touch'
+
+begin Unicode > use(main)
+
+group(main) using keys
++ [SHIFT U_0186] > 'Ɔ'
++ [U_0254] > 'ɔ'

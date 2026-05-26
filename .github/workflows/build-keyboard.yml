@@ -1,0 +1,29 @@
+name: Compile Chittagonian Keyboard Package
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'keyboards/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Compile Keyboard via Keyman Docker
+        run: |
+          docker run --rm -v ${{ github.workspace }}:/project \
+            keyman/developer-compiler:latest \
+            kmcomp /project/keyboards/chittagonian/chittagonian.kmn
+
+      - name: Commit and Push Compiled Binary
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@://github.com"
+          git add keyboards/chittagonian/chittagonian.kmp
+          git diff-index --quiet HEAD || git commit -m "chore: auto-compiled .kmp package [skip ci]"
+          git push
