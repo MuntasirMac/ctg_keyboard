@@ -923,9 +923,9 @@
             "key": [
               {
                 "id": "K_SHIFT",
-                "text": "\u25b2",
+                "text": "Shift",
                 "next": "shift",
-                "width": "1.5"
+                "width": 1.5
               },
               {
                 "id": "K_Z",
@@ -957,8 +957,8 @@
               },
               {
                 "id": "K_BKSP",
-                "text": "\u232b",
-                "width": "1.5"
+                "text": "BkSp",
+                "width": 1.5
               }
             ]
           },
@@ -968,7 +968,7 @@
               {
                 "id": "K_LOPT",
                 "text": "\ud83c\udf10",
-                "width": "1.5"
+                "width": 1.5
               },
               {
                 "id": "U_002C",
@@ -987,7 +987,7 @@
               {
                 "id": "K_SPACE",
                 "text": " ",
-                "width": "5.0"
+                "width": 5.0
               },
               {
                 "id": "U_002E",
@@ -1013,8 +1013,8 @@
               },
               {
                 "id": "K_ENTER",
-                "text": "\u23ce",
-                "width": "1.5"
+                "text": "Enter",
+                "width": 1.5
               }
             ]
           }
@@ -1291,9 +1291,9 @@
             "key": [
               {
                 "id": "K_SHIFT",
-                "text": "\u25b2",
+                "text": "Shift",
                 "next": "default",
-                "width": "1.5"
+                "width": 1.5
               },
               {
                 "id": "K_Z",
@@ -1325,8 +1325,8 @@
               },
               {
                 "id": "K_BKSP",
-                "text": "\u232b",
-                "width": "1.5"
+                "text": "BkSp",
+                "width": 1.5
               }
             ]
           },
@@ -1336,7 +1336,7 @@
               {
                 "id": "K_LOPT",
                 "text": "\ud83c\udf10",
-                "width": "1.5"
+                "width": 1.5
               },
               {
                 "id": "U_002C",
@@ -1355,7 +1355,7 @@
               {
                 "id": "K_SPACE",
                 "text": " ",
-                "width": "5.0"
+                "width": 5.0
               },
               {
                 "id": "U_002E",
@@ -1381,13 +1381,14 @@
               },
               {
                 "id": "K_ENTER",
-                "text": "\u23ce",
-                "width": "1.5"
+                "text": "Enter",
+                "width": 1.5
               }
             ]
           }
         ]
       }
-    ]
+    ],
+    "fontsize": "2.5em"
   }
 }
