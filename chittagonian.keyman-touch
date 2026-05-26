@@ -298,7 +298,8 @@
               {
                 "id": "K_SPACE",
                 "text": " ",
-                "width": "500"
+                "width": "500",
+                "fontsize": "0.8em"
               },
               {
                 "id": "U_002E",
@@ -687,7 +688,8 @@
               {
                 "id": "K_SPACE",
                 "text": " ",
-                "width": "500"
+                "width": "500",
+                "fontsize": "0.8em"
               },
               {
                 "id": "U_002E",
@@ -1022,7 +1024,8 @@
               {
                 "id": "K_SPACE",
                 "text": " ",
-                "width": "500"
+                "width": "500",
+                "fontsize": "0.8em"
               },
               {
                 "id": "U_002E",
@@ -1056,7 +1059,7 @@
         ]
       }
     ],
-    "fontsize": "1.3em"
+    "fontsize": "1.1em"
   },
   "tablet": {
     "layer": [
@@ -1402,7 +1405,8 @@
               {
                 "id": "K_SPACE",
                 "text": " ",
-                "width": "500"
+                "width": "500",
+                "fontsize": "0.8em"
               },
               {
                 "id": "U_002E",
@@ -1836,7 +1840,8 @@
               {
                 "id": "K_SPACE",
                 "text": " ",
-                "width": "500"
+                "width": "500",
+                "fontsize": "0.8em"
               },
               {
                 "id": "U_002E",
@@ -2216,7 +2221,8 @@
               {
                 "id": "K_SPACE",
                 "text": " ",
-                "width": "500"
+                "width": "500",
+                "fontsize": "0.8em"
               },
               {
                 "id": "U_002E",
@@ -2250,6 +2256,6 @@
         ]
       }
     ],
-    "fontsize": "1.3em"
+    "fontsize": "1.1em"
   }
 }
