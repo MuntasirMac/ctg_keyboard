@@ -18,7 +18,7 @@
     <Name URL="">Chittagonian</Name>
     <Copyright URL="">Copyright © MuntasirMac</Copyright>
     <Author URL="">MuntasirMac</Author>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
   </Info>
   <Files>
     <File>
@@ -38,7 +38,7 @@
     <Keyboard>
       <Name>Chittagonian</Name>
       <ID>chittagonian</ID>
-      <Version>1.0.0</Version>
+      <Version>1.0.1</Version>
       <Languages>
         <Language ID="ctg">Chittagonian</Language>
       </Languages>
