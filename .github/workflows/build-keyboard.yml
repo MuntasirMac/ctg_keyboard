@@ -21,16 +21,29 @@ jobs:
       - name: Install Native Keyman Compiler (kmc)
         run: npm install -g @keymanapp/kmc
 
-      - name: Compile Keyboard File
+      - name: Find and Compile Layout Files
         run: |
-          cd keyboards/chittagonian
-          kmc build chittagonian.kmn
+          # Automatically find where the .kmn file is sitting and build it
+          KMN_FILE=$(find . -name "*.kmn" | head -n 1)
+          if [ -z "$KMN_FILE" ]; then
+            echo "Error: No .kmn file found anywhere in the repository tree!"
+            exit 1
+          fi
+          echo "Found source file at: $KMN_FILE"
+          kmc build "$KMN_FILE"
+
+      - name: Find and Bundle Installer Package (.kmp)
+        run: |
+          # Automatically find where the .kps file is sitting and package it
+          KPS_FILE=$(find . -name "*.kps" | head -n 1)
+          if [ -z "$KPS_FILE" ]; then
+            echo "Error: No .kps file found anywhere in the repository tree!"
+            exit 1
+          fi
+          echo "Found package manifest file at: $KPS_FILE"
+          kmc build "$KPS_FILE"
 
       - name: Commit and Push Compiled Binary
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add keyboards/chittagonian/chittagonian.kmp || true
-          git add keyboards/chittagonian/chittagonian.js || true
-          git diff-index --quiet HEAD || git commit -m "chore: auto-compiled .kmp package [skip ci]"
-          git push origin HEAD
+          git config --global user.email "github-actions[bot]@://

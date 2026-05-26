@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>17.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <ReadMeFile></ReadMeFile>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items></Items>
+  </StartMenu>
+  <Info>
+    <Name URL="">Chittagonian Tonal</Name>
+    <Copyright URL="">Copyright © MuntasirMac</Copyright>
+    <Author URL="">MuntasirMac</Author>
+    <Version>1.0.0</Version>
+  </Info>
+  <Files>
+    <File>
+      <Name>chittagonian.js</Name>
+      <Description>File chittagonian.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>chittagonian.keyman-touch</Name>
+      <Description>File chittagonian.keyman-touch</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.keyman-touch</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <Name>Chittagonian Tonal</Name>
+      <ID>chittagonian</ID>
+      <Version>1.0.0</Version>
+      <Languages>
+        <Language ID="ctg">Chittagonian</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>
+
