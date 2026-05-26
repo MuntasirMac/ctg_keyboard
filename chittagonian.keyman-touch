@@ -339,11 +339,13 @@
             "key": [
               {
                 "id": "U_0051",
-                "text": "Q"
+                "text": "Q",
+                "next": "default"
               },
               {
                 "id": "U_0057",
-                "text": "W"
+                "text": "W",
+                "next": "default"
               },
               {
                 "id": "U_0045",
@@ -351,25 +353,31 @@
                 "sk": [
                   {
                     "id": "U_00C9",
-                    "text": "É"
+                    "text": "É",
+                    "next": "default"
                   },
                   {
                     "id": "U_011A",
-                    "text": "Ě"
+                    "text": "Ě",
+                    "next": "default"
                   },
                   {
                     "id": "U_00CA",
-                    "text": "Ê"
+                    "text": "Ê",
+                    "next": "default"
                   },
                   {
                     "id": "U_1EBC",
-                    "text": "Ẽ"
+                    "text": "Ẽ",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "U_0052",
-                "text": "R"
+                "text": "R",
+                "next": "default"
               },
               {
                 "id": "U_0054",
@@ -377,17 +385,21 @@
                 "sk": [
                   {
                     "id": "U_0166",
-                    "text": "Ŧ"
+                    "text": "Ŧ",
+                    "next": "default"
                   },
                   {
                     "id": "U_1E6C",
-                    "text": "Ṭ"
+                    "text": "Ṭ",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "U_0059",
-                "text": "Y"
+                "text": "Y",
+                "next": "default"
               },
               {
                 "id": "U_0055",
@@ -395,21 +407,26 @@
                 "sk": [
                   {
                     "id": "U_00DA",
-                    "text": "Ú"
+                    "text": "Ú",
+                    "next": "default"
                   },
                   {
                     "id": "U_01D3",
-                    "text": "Ǔ"
+                    "text": "Ǔ",
+                    "next": "default"
                   },
                   {
                     "id": "U_00DB",
-                    "text": "Û"
+                    "text": "Û",
+                    "next": "default"
                   },
                   {
                     "id": "U_0168",
-                    "text": "Ũ"
+                    "text": "Ũ",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "U_0049",
@@ -417,21 +434,26 @@
                 "sk": [
                   {
                     "id": "U_00CD",
-                    "text": "Í"
+                    "text": "Í",
+                    "next": "default"
                   },
                   {
                     "id": "U_01CF",
-                    "text": "Ǐ"
+                    "text": "Ǐ",
+                    "next": "default"
                   },
                   {
                     "id": "U_00CE",
-                    "text": "Î"
+                    "text": "Î",
+                    "next": "default"
                   },
                   {
                     "id": "U_0128",
-                    "text": "Ĩ"
+                    "text": "Ĩ",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "U_004F",
@@ -439,25 +461,31 @@
                 "sk": [
                   {
                     "id": "U_00D3",
-                    "text": "Ó"
+                    "text": "Ó",
+                    "next": "default"
                   },
                   {
                     "id": "U_01D1",
-                    "text": "Ǒ"
+                    "text": "Ǒ",
+                    "next": "default"
                   },
                   {
                     "id": "U_00D4",
-                    "text": "Ô"
+                    "text": "Ô",
+                    "next": "default"
                   },
                   {
                     "id": "U_00D5",
-                    "text": "Õ"
+                    "text": "Õ",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "U_0050",
-                "text": "P"
+                "text": "P",
+                "next": "default"
               }
             ]
           },
@@ -470,25 +498,31 @@
                 "sk": [
                   {
                     "id": "U_00C1",
-                    "text": "Á"
+                    "text": "Á",
+                    "next": "default"
                   },
                   {
                     "id": "U_01CD",
-                    "text": "Ǎ"
+                    "text": "Ǎ",
+                    "next": "default"
                   },
                   {
                     "id": "U_00C2",
-                    "text": "Â"
+                    "text": "Â",
+                    "next": "default"
                   },
                   {
                     "id": "U_00C3",
-                    "text": "Ã"
+                    "text": "Ã",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "U_0053",
-                "text": "S"
+                "text": "S",
+                "next": "default"
               },
               {
                 "id": "U_0044",
@@ -496,37 +530,46 @@
                 "sk": [
                   {
                     "id": "U_0110",
-                    "text": "Đ"
+                    "text": "Đ",
+                    "next": "default"
                   },
                   {
                     "id": "U_1E0C",
-                    "text": "Ḍ"
+                    "text": "Ḍ",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "U_0046",
-                "text": "F"
+                "text": "F",
+                "next": "default"
               },
               {
                 "id": "U_0047",
-                "text": "G"
+                "text": "G",
+                "next": "default"
               },
               {
                 "id": "U_0048",
-                "text": "H"
+                "text": "H",
+                "next": "default"
               },
               {
                 "id": "U_004A",
-                "text": "J"
+                "text": "J",
+                "next": "default"
               },
               {
                 "id": "U_004B",
-                "text": "K"
+                "text": "K",
+                "next": "default"
               },
               {
                 "id": "U_004C",
-                "text": "L"
+                "text": "L",
+                "next": "default"
               }
             ]
           },
@@ -542,15 +585,18 @@
               },
               {
                 "id": "U_005A",
-                "text": "Z"
+                "text": "Z",
+                "next": "default"
               },
               {
                 "id": "U_0058",
-                "text": "X"
+                "text": "X",
+                "next": "default"
               },
               {
                 "id": "U_0043",
-                "text": "C"
+                "text": "C",
+                "next": "default"
               },
               {
                 "id": "U_0186",
@@ -558,25 +604,31 @@
                 "sk": [
                   {
                     "id": "U_E005",
-                    "text": "Ɔ́"
+                    "text": "Ɔ́",
+                    "next": "default"
                   },
                   {
                     "id": "U_E006",
-                    "text": "Ɔ̌"
+                    "text": "Ɔ̌",
+                    "next": "default"
                   },
                   {
                     "id": "U_E007",
-                    "text": "Ɔ̂"
+                    "text": "Ɔ̂",
+                    "next": "default"
                   },
                   {
                     "id": "U_E008",
-                    "text": "Ɔ̃"
+                    "text": "Ɔ̃",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "U_0042",
-                "text": "B"
+                "text": "B",
+                "next": "default"
               },
               {
                 "id": "U_004E",
@@ -584,17 +636,21 @@
                 "sk": [
                   {
                     "id": "U_00D1",
-                    "text": "Ñ"
+                    "text": "Ñ",
+                    "next": "default"
                   },
                   {
                     "id": "U_1E44",
-                    "text": "Ṅ"
+                    "text": "Ṅ",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "U_004D",
-                "text": "M"
+                "text": "M",
+                "next": "default"
               },
               {
                 "id": "K_BKSP",
@@ -617,13 +673,16 @@
                 "sk": [
                   {
                     "id": "U_0027",
-                    "text": "'"
+                    "text": "'",
+                    "next": "default"
                   },
                   {
                     "id": "U_0022",
-                    "text": "\""
+                    "text": "\"",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "K_SPACE",
@@ -636,21 +695,26 @@
                 "sk": [
                   {
                     "id": "U_003A",
-                    "text": ":"
+                    "text": ":",
+                    "next": "default"
                   },
                   {
                     "id": "U_003B",
-                    "text": ";"
+                    "text": ";",
+                    "next": "default"
                   },
                   {
                     "id": "U_003F",
-                    "text": "?"
+                    "text": "?",
+                    "next": "default"
                   },
                   {
                     "id": "U_0021",
-                    "text": "!"
+                    "text": "!",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "K_ENTER",
@@ -1424,11 +1488,13 @@
             "key": [
               {
                 "id": "U_0051",
-                "text": "Q"
+                "text": "Q",
+                "next": "default"
               },
               {
                 "id": "U_0057",
-                "text": "W"
+                "text": "W",
+                "next": "default"
               },
               {
                 "id": "U_0045",
@@ -1436,25 +1502,31 @@
                 "sk": [
                   {
                     "id": "U_00C9",
-                    "text": "É"
+                    "text": "É",
+                    "next": "default"
                   },
                   {
                     "id": "U_011A",
-                    "text": "Ě"
+                    "text": "Ě",
+                    "next": "default"
                   },
                   {
                     "id": "U_00CA",
-                    "text": "Ê"
+                    "text": "Ê",
+                    "next": "default"
                   },
                   {
                     "id": "U_1EBC",
-                    "text": "Ẽ"
+                    "text": "Ẽ",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "U_0052",
-                "text": "R"
+                "text": "R",
+                "next": "default"
               },
               {
                 "id": "U_0054",
@@ -1462,17 +1534,21 @@
                 "sk": [
                   {
                     "id": "U_0166",
-                    "text": "Ŧ"
+                    "text": "Ŧ",
+                    "next": "default"
                   },
                   {
                     "id": "U_1E6C",
-                    "text": "Ṭ"
+                    "text": "Ṭ",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "U_0059",
-                "text": "Y"
+                "text": "Y",
+                "next": "default"
               },
               {
                 "id": "U_0055",
@@ -1480,21 +1556,26 @@
                 "sk": [
                   {
                     "id": "U_00DA",
-                    "text": "Ú"
+                    "text": "Ú",
+                    "next": "default"
                   },
                   {
                     "id": "U_01D3",
-                    "text": "Ǔ"
+                    "text": "Ǔ",
+                    "next": "default"
                   },
                   {
                     "id": "U_00DB",
-                    "text": "Û"
+                    "text": "Û",
+                    "next": "default"
                   },
                   {
                     "id": "U_0168",
-                    "text": "Ũ"
+                    "text": "Ũ",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "U_0049",
@@ -1502,21 +1583,26 @@
                 "sk": [
                   {
                     "id": "U_00CD",
-                    "text": "Í"
+                    "text": "Í",
+                    "next": "default"
                   },
                   {
                     "id": "U_01CF",
-                    "text": "Ǐ"
+                    "text": "Ǐ",
+                    "next": "default"
                   },
                   {
                     "id": "U_00CE",
-                    "text": "Î"
+                    "text": "Î",
+                    "next": "default"
                   },
                   {
                     "id": "U_0128",
-                    "text": "Ĩ"
+                    "text": "Ĩ",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "U_004F",
@@ -1524,25 +1610,31 @@
                 "sk": [
                   {
                     "id": "U_00D3",
-                    "text": "Ó"
+                    "text": "Ó",
+                    "next": "default"
                   },
                   {
                     "id": "U_01D1",
-                    "text": "Ǒ"
+                    "text": "Ǒ",
+                    "next": "default"
                   },
                   {
                     "id": "U_00D4",
-                    "text": "Ô"
+                    "text": "Ô",
+                    "next": "default"
                   },
                   {
                     "id": "U_00D5",
-                    "text": "Õ"
+                    "text": "Õ",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "U_0050",
-                "text": "P"
+                "text": "P",
+                "next": "default"
               }
             ]
           },
@@ -1555,25 +1647,31 @@
                 "sk": [
                   {
                     "id": "U_00C1",
-                    "text": "Á"
+                    "text": "Á",
+                    "next": "default"
                   },
                   {
                     "id": "U_01CD",
-                    "text": "Ǎ"
+                    "text": "Ǎ",
+                    "next": "default"
                   },
                   {
                     "id": "U_00C2",
-                    "text": "Â"
+                    "text": "Â",
+                    "next": "default"
                   },
                   {
                     "id": "U_00C3",
-                    "text": "Ã"
+                    "text": "Ã",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "U_0053",
-                "text": "S"
+                "text": "S",
+                "next": "default"
               },
               {
                 "id": "U_0044",
@@ -1581,37 +1679,46 @@
                 "sk": [
                   {
                     "id": "U_0110",
-                    "text": "Đ"
+                    "text": "Đ",
+                    "next": "default"
                   },
                   {
                     "id": "U_1E0C",
-                    "text": "Ḍ"
+                    "text": "Ḍ",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "U_0046",
-                "text": "F"
+                "text": "F",
+                "next": "default"
               },
               {
                 "id": "U_0047",
-                "text": "G"
+                "text": "G",
+                "next": "default"
               },
               {
                 "id": "U_0048",
-                "text": "H"
+                "text": "H",
+                "next": "default"
               },
               {
                 "id": "U_004A",
-                "text": "J"
+                "text": "J",
+                "next": "default"
               },
               {
                 "id": "U_004B",
-                "text": "K"
+                "text": "K",
+                "next": "default"
               },
               {
                 "id": "U_004C",
-                "text": "L"
+                "text": "L",
+                "next": "default"
               }
             ]
           },
@@ -1627,15 +1734,18 @@
               },
               {
                 "id": "U_005A",
-                "text": "Z"
+                "text": "Z",
+                "next": "default"
               },
               {
                 "id": "U_0058",
-                "text": "X"
+                "text": "X",
+                "next": "default"
               },
               {
                 "id": "U_0043",
-                "text": "C"
+                "text": "C",
+                "next": "default"
               },
               {
                 "id": "U_0186",
@@ -1643,25 +1753,31 @@
                 "sk": [
                   {
                     "id": "U_E005",
-                    "text": "Ɔ́"
+                    "text": "Ɔ́",
+                    "next": "default"
                   },
                   {
                     "id": "U_E006",
-                    "text": "Ɔ̌"
+                    "text": "Ɔ̌",
+                    "next": "default"
                   },
                   {
                     "id": "U_E007",
-                    "text": "Ɔ̂"
+                    "text": "Ɔ̂",
+                    "next": "default"
                   },
                   {
                     "id": "U_E008",
-                    "text": "Ɔ̃"
+                    "text": "Ɔ̃",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "U_0042",
-                "text": "B"
+                "text": "B",
+                "next": "default"
               },
               {
                 "id": "U_004E",
@@ -1669,17 +1785,21 @@
                 "sk": [
                   {
                     "id": "U_00D1",
-                    "text": "Ñ"
+                    "text": "Ñ",
+                    "next": "default"
                   },
                   {
                     "id": "U_1E44",
-                    "text": "Ṅ"
+                    "text": "Ṅ",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "U_004D",
-                "text": "M"
+                "text": "M",
+                "next": "default"
               },
               {
                 "id": "K_BKSP",
@@ -1702,13 +1822,16 @@
                 "sk": [
                   {
                     "id": "U_0027",
-                    "text": "'"
+                    "text": "'",
+                    "next": "default"
                   },
                   {
                     "id": "U_0022",
-                    "text": "\""
+                    "text": "\"",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "K_SPACE",
@@ -1721,21 +1844,26 @@
                 "sk": [
                   {
                     "id": "U_003A",
-                    "text": ":"
+                    "text": ":",
+                    "next": "default"
                   },
                   {
                     "id": "U_003B",
-                    "text": ";"
+                    "text": ";",
+                    "next": "default"
                   },
                   {
                     "id": "U_003F",
-                    "text": "?"
+                    "text": "?",
+                    "next": "default"
                   },
                   {
                     "id": "U_0021",
-                    "text": "!"
+                    "text": "!",
+                    "next": "default"
                   }
-                ]
+                ],
+                "next": "default"
               },
               {
                 "id": "K_ENTER",

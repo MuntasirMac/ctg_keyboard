@@ -10,7 +10,7 @@ A specialized native mobile keyboard layout built for typing the Chittagonian la
 
 2. Once the Keyman app is installed, tap the button below on your mobile device to download and activate the Chittagonian layout:
 
-[![Install Keyboard](https://img.shields.io/badge/Install%20Chittagonian%Keyboard-1976D2?style=for-the-badge&logo=keyman)](https://github.com/MuntasirMac/ctg_keyboard/raw/main/keyboards/chittagonian/chittagonian.kmp)
+[![Install Keyboard](https://img.shields.io/badge/Install%20Chittagonian%20Keyboard-1976D2?style=for-the-badge&logo=keyman)](https://github.com/MuntasirMac/ctg_keyboard/raw/main/keyboards/chittagonian/chittagonian.kmp)
 
 Alternatively, open this link in your mobile browser:
 ```
