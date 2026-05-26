@@ -15,7 +15,7 @@
     <Items></Items>
   </StartMenu>
   <Info>
-    <Name URL="">Chittagonian Tonal</Name>
+    <Name URL="">Chittagonian</Name>
     <Copyright URL="">Copyright © MuntasirMac</Copyright>
     <Author URL="">MuntasirMac</Author>
     <Version>1.0.0</Version>
@@ -36,7 +36,7 @@
   </Files>
   <Keyboards>
     <Keyboard>
-      <Name>Chittagonian Tonal</Name>
+      <Name>Chittagonian</Name>
       <ID>chittagonian</ID>
       <Version>1.0.0</Version>
       <Languages>
