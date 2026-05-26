@@ -34,4 +34,6 @@ group(main) using keys
 + [SHIFT U_E006] > 'Ɔ̌'
 + [SHIFT U_E007] > 'Ɔ̂'
 + [SHIFT U_E008] > 'Ɔ̃'
++ [T_NUM] > nul
++ [T_ALPHA] > nul
 
