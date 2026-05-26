@@ -206,9 +206,9 @@
               {
                 "id": "K_SHIFT",
                 "text": "▲",
-                "next": "shift",
                 "width": "150",
-                "sp": 1
+                "sp": 1,
+                "nextlayer": "shift"
               },
               {
                 "id": "U_007A",
@@ -280,8 +280,8 @@
                 "id": "T_NUM",
                 "text": "123",
                 "width": "150",
-                "next": "numeric",
-                "sp": 8
+                "sp": 1,
+                "nextlayer": "numeric"
               },
               {
                 "id": "K_LOPT",
@@ -347,12 +347,12 @@
               {
                 "id": "U_0051",
                 "text": "Q",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0057",
                 "text": "W",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0045",
@@ -375,12 +375,12 @@
                     "text": "Ẽ"
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0052",
                 "text": "R",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0054",
@@ -395,12 +395,12 @@
                     "text": "Ṭ"
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0059",
                 "text": "Y",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0055",
@@ -423,7 +423,7 @@
                     "text": "Ũ"
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0049",
@@ -446,7 +446,7 @@
                     "text": "Ĩ"
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_004F",
@@ -469,12 +469,12 @@
                     "text": "Õ"
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0050",
                 "text": "P",
-                "next": "default"
+                "nextlayer": "default"
               }
             ]
           },
@@ -502,12 +502,12 @@
                     "text": "Ã"
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0053",
                 "text": "S",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0044",
@@ -522,37 +522,37 @@
                     "text": "Ḍ"
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0046",
                 "text": "F",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0047",
                 "text": "G",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0048",
                 "text": "H",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_004A",
                 "text": "J",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_004B",
                 "text": "K",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_004C",
                 "text": "L",
-                "next": "default"
+                "nextlayer": "default"
               }
             ]
           },
@@ -562,24 +562,24 @@
               {
                 "id": "K_SHIFT",
                 "text": "▲",
-                "next": "default",
                 "width": "150",
-                "sp": 1
+                "sp": 1,
+                "nextlayer": "default"
               },
               {
                 "id": "U_005A",
                 "text": "Z",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0058",
                 "text": "X",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0043",
                 "text": "C",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0186",
@@ -602,12 +602,12 @@
                     "text": "Ɔ̃"
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0042",
                 "text": "B",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_004E",
@@ -622,12 +622,12 @@
                     "text": "Ṅ"
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_004D",
                 "text": "M",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "K_BKSP",
@@ -643,8 +643,8 @@
                 "id": "T_NUM",
                 "text": "123",
                 "width": "150",
-                "sp": 8,
-                "next": "default"
+                "sp": 1,
+                "nextlayer": "numeric"
               },
               {
                 "id": "K_LOPT",
@@ -664,7 +664,7 @@
                     "text": "\""
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "K_SPACE",
@@ -692,7 +692,7 @@
                     "text": "!"
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "K_ENTER",
@@ -849,8 +849,8 @@
                 "id": "T_NUM",
                 "text": "ABC",
                 "width": "150",
-                "next": "default",
-                "sp": 8
+                "sp": 1,
+                "nextlayer": "default"
               },
               {
                 "id": "K_LOPT",
@@ -1134,9 +1134,9 @@
               {
                 "id": "K_SHIFT",
                 "text": "▲",
-                "next": "shift",
                 "width": "150",
-                "sp": 1
+                "sp": 1,
+                "nextlayer": "shift"
               },
               {
                 "id": "U_007A",
@@ -1208,8 +1208,8 @@
                 "id": "T_NUM",
                 "text": "123",
                 "width": "150",
-                "next": "numeric",
-                "sp": 8
+                "sp": 1,
+                "nextlayer": "numeric"
               },
               {
                 "id": "K_LOPT",
@@ -1275,52 +1275,52 @@
               {
                 "id": "K_1",
                 "text": "1",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "K_2",
                 "text": "2",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "K_3",
                 "text": "3",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "K_4",
                 "text": "4",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "K_5",
                 "text": "5",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "K_6",
                 "text": "6",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "K_7",
                 "text": "7",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "K_8",
                 "text": "8",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "K_9",
                 "text": "9",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "K_0",
                 "text": "0",
-                "next": "default"
+                "nextlayer": "default"
               }
             ]
           },
@@ -1330,12 +1330,12 @@
               {
                 "id": "U_0051",
                 "text": "Q",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0057",
                 "text": "W",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0045",
@@ -1358,12 +1358,12 @@
                     "text": "Ẽ"
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0052",
                 "text": "R",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0054",
@@ -1378,12 +1378,12 @@
                     "text": "Ṭ"
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0059",
                 "text": "Y",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0055",
@@ -1406,7 +1406,7 @@
                     "text": "Ũ"
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0049",
@@ -1429,7 +1429,7 @@
                     "text": "Ĩ"
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_004F",
@@ -1452,12 +1452,12 @@
                     "text": "Õ"
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0050",
                 "text": "P",
-                "next": "default"
+                "nextlayer": "default"
               }
             ]
           },
@@ -1485,12 +1485,12 @@
                     "text": "Ã"
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0053",
                 "text": "S",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0044",
@@ -1505,37 +1505,37 @@
                     "text": "Ḍ"
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0046",
                 "text": "F",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0047",
                 "text": "G",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0048",
                 "text": "H",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_004A",
                 "text": "J",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_004B",
                 "text": "K",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_004C",
                 "text": "L",
-                "next": "default"
+                "nextlayer": "default"
               }
             ]
           },
@@ -1545,24 +1545,24 @@
               {
                 "id": "K_SHIFT",
                 "text": "▲",
-                "next": "default",
                 "width": "150",
-                "sp": 1
+                "sp": 1,
+                "nextlayer": "default"
               },
               {
                 "id": "U_005A",
                 "text": "Z",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0058",
                 "text": "X",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0043",
                 "text": "C",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0186",
@@ -1585,12 +1585,12 @@
                     "text": "Ɔ̃"
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_0042",
                 "text": "B",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_004E",
@@ -1605,12 +1605,12 @@
                     "text": "Ṅ"
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "U_004D",
                 "text": "M",
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "K_BKSP",
@@ -1626,8 +1626,8 @@
                 "id": "T_NUM",
                 "text": "123",
                 "width": "150",
-                "sp": 8,
-                "next": "default"
+                "sp": 1,
+                "nextlayer": "numeric"
               },
               {
                 "id": "K_LOPT",
@@ -1647,7 +1647,7 @@
                     "text": "\""
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "K_SPACE",
@@ -1675,7 +1675,7 @@
                     "text": "!"
                   }
                 ],
-                "next": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "K_ENTER",
@@ -1878,8 +1878,8 @@
                 "id": "T_NUM",
                 "text": "ABC",
                 "width": "150",
-                "next": "default",
-                "sp": 8
+                "sp": 1,
+                "nextlayer": "default"
               },
               {
                 "id": "U_002C",
