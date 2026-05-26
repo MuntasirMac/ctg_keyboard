@@ -15,7 +15,7 @@
             "id": 2,
             "key": [
               { "id": "K_Q", "text": "q" }, { "id": "K_W", "text": "w" }, { "id": "K_E", "text": "e", "sk": [ { "id": "U_00E9", "text": "é" }, { "id": "U_011B", "text": "ě" }, { "id": "U_00EA", "text": "ê" }, { "id": "U_1EBD", "text": "ẽ" } ] }, { "id": "K_R", "text": "r" },
-              { "id": "K_T", "text": "t", "sk": [ { "id": "U_0167", "text": "ŧ" }, { "id": "U_1E6D", "text": "ṭ" } ] },
+              { "id": "K_T", "text": "t", "sk": [ { "id": "U_0167", "text": "ŧ" } ] },
               { "id": "K_Y", "text": "y" }, { "id": "K_U", "text": "u", "sk": [ { "id": "U_00FA", "text": "ú" }, { "id": "U_01D4", "text": "ǔ" }, { "id": "U_00FB", "text": "û" }, { "id": "U_0169", "text": "ũ" } ] }, { "id": "K_I", "text": "i", "sk": [ { "id": "U_00ED", "text": "í" }, { "id": "U_01D0", "text": "ǐ" }, { "id": "U_00EE", "text": "î" }, { "id": "U_0129", "text": "ĩ" } ] }, { "id": "K_O", "text": "o", "sk": [ { "id": "U_00F3", "text": "ó" }, { "id": "U_01D2", "text": "ǒ" }, { "id": "U_00F4", "text": "ô" }, { "id": "U_00F5", "text": "õ" } ] }, { "id": "K_P", "text": "p" }
             ]
           },
@@ -23,7 +23,7 @@
             "id": 3,
             "key": [
               { "id": "K_A", "text": "a", "sk": [ { "id": "U_00E1", "text": "á" }, { "id": "U_01CE", "text": "ǎ" }, { "id": "U_00E2", "text": "â" }, { "id": "U_00E3", "text": "ã" } ] }, { "id": "K_S", "text": "s" },
-              { "id": "K_D", "text": "d", "sk": [ { "id": "U_0111", "text": "đ" }, { "id": "U_1E0D", "text": "ḍ" } ] },
+              { "id": "K_D", "text": "d", "sk": [ { "id": "U_0111", "text": "đ" } ] },
               { "id": "K_F", "text": "f" }, { "id": "K_G", "text": "g" }, { "id": "K_H", "text": "h" }, { "id": "K_J", "text": "j" }, { "id": "K_K", "text": "k" }, { "id": "K_L", "text": "l" }, { "id": "U_0254", "text": "ɔ", "sk": [ { "id": "U_E001", "text": "ɔ́" }, { "id": "U_E002", "text": "ɔ̌" }, { "id": "U_E003", "text": "ɔ̂" }, { "id": "U_E004", "text": "ɔ̃" } ] }
             ]
           },
@@ -61,7 +61,7 @@
             "id": 2,
             "key": [
               { "id": "K_Q", "text": "Q" }, { "id": "K_W", "text": "W" }, { "id": "K_E", "text": "E", "sk": [ { "id": "U_00C9", "text": "É" }, { "id": "U_011A", "text": "Ě" }, { "id": "U_00CA", "text": "Ê" }, { "id": "U_1EBC", "text": "Ẽ" } ] }, { "id": "K_R", "text": "R" },
-              { "id": "K_T", "text": "T", "sk": [ { "id": "U_0166", "text": "Ŧ" }, { "id": "U_1E6C", "text": "Ṭ" } ] },
+              { "id": "K_T", "text": "T", "sk": [ { "id": "U_0166", "text": "Ŧ" } ] },
               { "id": "K_Y", "text": "Y" }, { "id": "K_U", "text": "U", "sk": [ { "id": "U_00DA", "text": "Ú" }, { "id": "U_01D3", "text": "Ǔ" }, { "id": "U_00DB", "text": "Û" }, { "id": "U_0168", "text": "Ũ" } ] }, { "id": "K_I", "text": "I", "sk": [ { "id": "U_00CD", "text": "Í" }, { "id": "U_01CF", "text": "Ǐ" }, { "id": "U_00CE", "text": "Î" }, { "id": "U_0128", "text": "Ĩ" } ] }, { "id": "K_O", "text": "O", "sk": [ { "id": "U_00D3", "text": "Ó" }, { "id": "U_01D1", "text": "Ǒ" }, { "id": "U_00D4", "text": "Ô" }, { "id": "U_00D5", "text": "Õ" } ] }, { "id": "K_P", "text": "P" }
             ]
           },
@@ -69,7 +69,7 @@
             "id": 3,
             "key": [
               { "id": "K_A", "text": "A", "sk": [ { "id": "U_00C1", "text": "Á" }, { "id": "U_01CD", "text": "Ǎ" }, { "id": "U_00C2", "text": "Â" }, { "id": "U_00C3", "text": "Ã" } ] }, { "id": "K_S", "text": "S" },
-              { "id": "K_D", "text": "D", "sk": [ { "id": "U_0110", "text": "Đ" }, { "id": "U_1E0C", "text": "Ḍ" } ] },
+              { "id": "K_D", "text": "D", "sk": [ { "id": "U_0110", "text": "Đ" } ] },
               { "id": "K_F", "text": "F" }, { "id": "K_G", "text": "G" }, { "id": "K_H", "text": "H" }, { "id": "K_J", "text": "J" }, { "id": "K_K", "text": "K" }, { "id": "K_L", "text": "L" }, { "id": "U_0186", "text": "Ɔ", "sk": [ { "id": "U_E005", "text": "Ɔ́" }, { "id": "U_E006", "text": "Ɔ̌" }, { "id": "U_E007", "text": "Ɔ̂" }, { "id": "U_E008", "text": "Ɔ̃" } ] }
             ]
           },
@@ -111,7 +111,7 @@
             "id": 2,
             "key": [
               { "id": "K_Q", "text": "q" }, { "id": "K_W", "text": "w" }, { "id": "K_E", "text": "e", "sk": [ { "id": "U_00E9", "text": "é" }, { "id": "U_011B", "text": "ě" }, { "id": "U_00EA", "text": "ê" }, { "id": "U_1EBD", "text": "ẽ" } ] }, { "id": "K_R", "text": "r" },
-              { "id": "K_T", "text": "t", "sk": [ { "id": "U_0167", "text": "ŧ" }, { "id": "U_1E6D", "text": "ṭ" } ] },
+              { "id": "K_T", "text": "t", "sk": [ { "id": "U_0167", "text": "ŧ" } ] },
               { "id": "K_Y", "text": "y" }, { "id": "K_U", "text": "u", "sk": [ { "id": "U_00FA", "text": "ú" }, { "id": "U_01D4", "text": "ǔ" }, { "id": "U_00FB", "text": "û" }, { "id": "U_0169", "text": "ũ" } ] }, { "id": "K_I", "text": "i", "sk": [ { "id": "U_00ED", "text": "í" }, { "id": "U_01D0", "text": "ǐ" }, { "id": "U_00EE", "text": "î" }, { "id": "U_0129", "text": "ĩ" } ] }, { "id": "K_O", "text": "o", "sk": [ { "id": "U_00F3", "text": "ó" }, { "id": "U_01D2", "text": "ǒ" }, { "id": "U_00F4", "text": "ô" }, { "id": "U_00F5", "text": "õ" } ] }, { "id": "K_P", "text": "p" }
             ]
           },
@@ -119,7 +119,7 @@
             "id": 3,
             "key": [
               { "id": "K_A", "text": "a", "sk": [ { "id": "U_00E1", "text": "á" }, { "id": "U_01CE", "text": "ǎ" }, { "id": "U_00E2", "text": "â" }, { "id": "U_00E3", "text": "ã" } ] }, { "id": "K_S", "text": "s" },
-              { "id": "K_D", "text": "d", "sk": [ { "id": "U_0111", "text": "đ" }, { "id": "U_1E0D", "text": "ḍ" } ] },
+              { "id": "K_D", "text": "d", "sk": [ { "id": "U_0111", "text": "đ" } ] },
               { "id": "K_F", "text": "f" }, { "id": "K_G", "text": "g" }, { "id": "K_H", "text": "h" }, { "id": "K_J", "text": "j" }, { "id": "K_K", "text": "k" }, { "id": "K_L", "text": "l" }, { "id": "U_0254", "text": "ɔ", "sk": [ { "id": "U_E001", "text": "ɔ́" }, { "id": "U_E002", "text": "ɔ̌" }, { "id": "U_E003", "text": "ɔ̂" }, { "id": "U_E004", "text": "ɔ̃" } ] }
             ]
           },
@@ -157,7 +157,7 @@
             "id": 2,
             "key": [
               { "id": "K_Q", "text": "Q" }, { "id": "K_W", "text": "W" }, { "id": "K_E", "text": "E", "sk": [ { "id": "U_00C9", "text": "É" }, { "id": "U_011A", "text": "Ě" }, { "id": "U_00CA", "text": "Ê" }, { "id": "U_1EBC", "text": "Ẽ" } ] }, { "id": "K_R", "text": "R" },
-              { "id": "K_T", "text": "T", "sk": [ { "id": "U_0166", "text": "Ŧ" }, { "id": "U_1E6C", "text": "Ṭ" } ] },
+              { "id": "K_T", "text": "T", "sk": [ { "id": "U_0166", "text": "Ŧ" } ] },
               { "id": "K_Y", "text": "Y" }, { "id": "K_U", "text": "U", "sk": [ { "id": "U_00DA", "text": "Ú" }, { "id": "U_01D3", "text": "Ǔ" }, { "id": "U_00DB", "text": "Û" }, { "id": "U_0168", "text": "Ũ" } ] }, { "id": "K_I", "text": "I", "sk": [ { "id": "U_00CD", "text": "Í" }, { "id": "U_01CF", "text": "Ǐ" }, { "id": "U_00CE", "text": "Î" }, { "id": "U_0128", "text": "Ĩ" } ] }, { "id": "K_O", "text": "O", "sk": [ { "id": "U_00D3", "text": "Ó" }, { "id": "U_01D1", "text": "Ǒ" }, { "id": "U_00D4", "text": "Ô" }, { "id": "U_00D5", "text": "Õ" } ] }, { "id": "K_P", "text": "P" }
             ]
           },
@@ -165,7 +165,7 @@
             "id": 3,
             "key": [
               { "id": "K_A", "text": "A", "sk": [ { "id": "U_00C1", "text": "Á" }, { "id": "U_01CD", "text": "Ǎ" }, { "id": "U_00C2", "text": "Â" }, { "id": "U_00C3", "text": "Ã" } ] }, { "id": "K_S", "text": "S" },
-              { "id": "K_D", "text": "D", "sk": [ { "id": "U_0110", "text": "Đ" }, { "id": "U_1E0C", "text": "Ḍ" } ] },
+              { "id": "K_D", "text": "D", "sk": [ { "id": "U_0110", "text": "Đ" } ] },
               { "id": "K_F", "text": "F" }, { "id": "K_G", "text": "G" }, { "id": "K_H", "text": "H" }, { "id": "K_J", "text": "J" }, { "id": "K_K", "text": "K" }, { "id": "K_L", "text": "L" }, { "id": "U_0186", "text": "Ɔ", "sk": [ { "id": "U_E005", "text": "Ɔ́" }, { "id": "U_E006", "text": "Ɔ̌" }, { "id": "U_E007", "text": "Ɔ̂" }, { "id": "U_E008", "text": "Ɔ̃" } ] }
             ]
           },
