@@ -13,14 +13,18 @@ begin Unicode > use(main)
 
 group(main) using keys
 + [U_0111] > 'đ'
++ [U_1E0D] > 'ḍ'
 + [U_0167] > 'ŧ'
++ [U_1E6D] > 'ṭ'
 + [U_0254] > 'ɔ'
 + [U_E001] > 'ɔ́'
 + [U_E002] > 'ɔ̌'
 + [U_E003] > 'ɔ̂'
 + [U_E004] > 'ɔ̃'
 + [SHIFT U_0110] > 'Đ'
++ [SHIFT U_1E0C] > 'Ḍ'
 + [SHIFT U_0166] > 'Ŧ'
++ [SHIFT U_1E6C] > 'Ṭ'
 + [SHIFT U_0186] > 'Ɔ'
 + [SHIFT U_E005] > 'Ɔ́'
 + [SHIFT U_E006] > 'Ɔ̌'
