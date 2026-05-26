@@ -24,21 +24,14 @@
             "key": [
               { "id": "K_A", "text": "a", "sk": [ { "id": "U_00E1", "text": "á" }, { "id": "U_01CE", "text": "ǎ" }, { "id": "U_00E2", "text": "â" }, { "id": "U_00E3", "text": "ã" } ] }, { "id": "K_S", "text": "s" },
               { "id": "K_D", "text": "d", "sk": [ { "id": "U_0111", "text": "đ" } ] },
-              { "id": "K_F", "text": "f" }, { "id": "K_G", "text": "g" }, { "id": "K_H", "text": "h" }, { "id": "K_J", "text": "j" }, { "id": "K_K", "text": "k" }, { "id": "K_L", "text": "l" }
+              { "id": "K_F", "text": "f" }, { "id": "K_G", "text": "g" }, { "id": "K_H", "text": "h" }, { "id": "K_J", "text": "j" }, { "id": "K_K", "text": "k" }, { "id": "K_L", "text": "l" }, { "id": "U_0254", "text": "ɔ", "sk": [ { "id": "U_0254_ACUTE", "text": "ɔ́" }, { "id": "U_0254_CARON", "text": "ɔ̌" }, { "id": "U_0254_CIRCUM", "text": "ɔ̂" }, { "id": "U_0254_TILDE", "text": "ɔ̃" } ] }
             ]
           },
           {
             "id": 4,
             "key": [
               { "id": "K_SHIFT", "text": "▲", "next": "shift", "width": "1.5" },
-              { "id": "K_Z", "text": "z" }, { "id": "K_X", "text": "x" }, { "id": "K_C", "text": "c" }, { "id": "K_V", "text": "v" }, { "id": "K_B", "text": "b" }, { "id": "K_N", "text": "n" }, { "id": "K_M", "text": "m" },
-              { 
-                "id": "U_0254", 
-                "text": "ɔ", 
-                "sk": [
-                  { "text": "ɔ́" }, { "text": "ɔ̌" }, { "text": "ɔ̂" }, { "text": "ɔ̃" }
-                ]
-              },
+              { "id": "K_Z", "text": "z" }, { "id": "K_X", "text": "x" }, { "id": "K_C", "text": "c" }, { "id": "K_V", "text": "v" }, { "id": "K_B", "text": "b" }, { "id": "K_N", "text": "n" },               { "id": "K_M", "text": "m" },
               { "id": "K_BKSP", "text": "⌫", "width": "1.5" }
             ]
           },
@@ -77,21 +70,14 @@
             "key": [
               { "id": "K_A", "text": "A", "sk": [ { "id": "U_00C1", "text": "Á" }, { "id": "U_01CD", "text": "Ǎ" }, { "id": "U_00C2", "text": "Â" }, { "id": "U_00C3", "text": "Ã" } ] }, { "id": "K_S", "text": "S" },
               { "id": "K_D", "text": "D", "sk": [ { "id": "U_0110", "text": "Đ" } ] },
-              { "id": "K_F", "text": "F" }, { "id": "K_G", "text": "G" }, { "id": "K_H", "text": "H" }, { "id": "K_J", "text": "J" }, { "id": "K_K", "text": "K" }, { "id": "K_L", "text": "L" }
+              { "id": "K_F", "text": "F" }, { "id": "K_G", "text": "G" }, { "id": "K_H", "text": "H" }, { "id": "K_J", "text": "J" }, { "id": "K_K", "text": "K" }, { "id": "K_L", "text": "L" }, { "id": "U_0186", "text": "Ɔ", "sk": [ { "id": "U_0186_ACUTE", "text": "Ɔ́" }, { "id": "U_0186_CARON", "text": "Ɔ̌" }, { "id": "U_0186_CIRCUM", "text": "Ɔ̂" }, { "id": "U_0186_TILDE", "text": "Ɔ̃" } ] }
             ]
           },
           {
             "id": 4,
             "key": [
               { "id": "K_SHIFT", "text": "▲", "next": "default", "width": "1.5" },
-              { "id": "K_Z", "text": "Z" }, { "id": "K_X", "text": "X" }, { "id": "K_C", "text": "C" }, { "id": "K_V", "text": "V" }, { "id": "K_B", "text": "B" }, { "id": "K_N", "text": "N" }, { "id": "K_M", "text": "M" },
-              { 
-                "id": "U_0186", 
-                "text": "Ɔ", 
-                "sk": [
-                  { "text": "Ɔ́" }, { "text": "Ɔ̌" }, { "text": "Ɔ̂" }, { "text": "Ɔ̃" }
-                ]
-              },
+              { "id": "K_Z", "text": "Z" }, { "id": "K_X", "text": "X" }, { "id": "K_C", "text": "C" }, { "id": "K_V", "text": "V" }, { "id": "K_B", "text": "B" }, { "id": "K_N", "text": "N" },               { "id": "K_M", "text": "M" },
               { "id": "K_BKSP", "text": "⌫", "width": "1.5" }
             ]
           },
@@ -134,21 +120,14 @@
             "key": [
               { "id": "K_A", "text": "a", "sk": [ { "id": "U_00E1", "text": "á" }, { "id": "U_01CE", "text": "ǎ" }, { "id": "U_00E2", "text": "â" }, { "id": "U_00E3", "text": "ã" } ] }, { "id": "K_S", "text": "s" },
               { "id": "K_D", "text": "d", "sk": [ { "id": "U_0111", "text": "đ" } ] },
-              { "id": "K_F", "text": "f" }, { "id": "K_G", "text": "g" }, { "id": "K_H", "text": "h" }, { "id": "K_J", "text": "j" }, { "id": "K_K", "text": "k" }, { "id": "K_L", "text": "l" }
+              { "id": "K_F", "text": "f" }, { "id": "K_G", "text": "g" }, { "id": "K_H", "text": "h" }, { "id": "K_J", "text": "j" }, { "id": "K_K", "text": "k" }, { "id": "K_L", "text": "l" }, { "id": "U_0254", "text": "ɔ", "sk": [ { "id": "U_0254_ACUTE", "text": "ɔ́" }, { "id": "U_0254_CARON", "text": "ɔ̌" }, { "id": "U_0254_CIRCUM", "text": "ɔ̂" }, { "id": "U_0254_TILDE", "text": "ɔ̃" } ] }
             ]
           },
           {
             "id": 4,
             "key": [
               { "id": "K_SHIFT", "text": "▲", "next": "shift", "width": "1.5" },
-              { "id": "K_Z", "text": "z" }, { "id": "K_X", "text": "x" }, { "id": "K_C", "text": "c" }, { "id": "K_V", "text": "v" }, { "id": "K_B", "text": "b" }, { "id": "K_N", "text": "n" }, { "id": "K_M", "text": "m" },
-              { 
-                "id": "U_0254", 
-                "text": "ɔ", 
-                "sk": [
-                  { "text": "ɔ́" }, { "text": "ɔ̌" }, { "text": "ɔ̂" }, { "text": "ɔ̃" }
-                ]
-              },
+              { "id": "K_Z", "text": "z" }, { "id": "K_X", "text": "x" }, { "id": "K_C", "text": "c" }, { "id": "K_V", "text": "v" }, { "id": "K_B", "text": "b" }, { "id": "K_N", "text": "n" },               { "id": "K_M", "text": "m" },
               { "id": "K_BKSP", "text": "⌫", "width": "1.5" }
             ]
           },
@@ -187,21 +166,14 @@
             "key": [
               { "id": "K_A", "text": "A", "sk": [ { "id": "U_00C1", "text": "Á" }, { "id": "U_01CD", "text": "Ǎ" }, { "id": "U_00C2", "text": "Â" }, { "id": "U_00C3", "text": "Ã" } ] }, { "id": "K_S", "text": "S" },
               { "id": "K_D", "text": "D", "sk": [ { "id": "U_0110", "text": "Đ" } ] },
-              { "id": "K_F", "text": "F" }, { "id": "K_G", "text": "G" }, { "id": "K_H", "text": "H" }, { "id": "K_J", "text": "J" }, { "id": "K_K", "text": "K" }, { "id": "K_L", "text": "L" }
+              { "id": "K_F", "text": "F" }, { "id": "K_G", "text": "G" }, { "id": "K_H", "text": "H" }, { "id": "K_J", "text": "J" }, { "id": "K_K", "text": "K" }, { "id": "K_L", "text": "L" }, { "id": "U_0186", "text": "Ɔ", "sk": [ { "id": "U_0186_ACUTE", "text": "Ɔ́" }, { "id": "U_0186_CARON", "text": "Ɔ̌" }, { "id": "U_0186_CIRCUM", "text": "Ɔ̂" }, { "id": "U_0186_TILDE", "text": "Ɔ̃" } ] }
             ]
           },
           {
             "id": 4,
             "key": [
               { "id": "K_SHIFT", "text": "▲", "next": "default", "width": "1.5" },
-              { "id": "K_Z", "text": "Z" }, { "id": "K_X", "text": "X" }, { "id": "K_C", "text": "C" }, { "id": "K_V", "text": "V" }, { "id": "K_B", "text": "B" }, { "id": "K_N", "text": "N" }, { "id": "K_M", "text": "M" },
-              { 
-                "id": "U_0186", 
-                "text": "Ɔ", 
-                "sk": [
-                  { "text": "Ɔ́" }, { "text": "Ɔ̌" }, { "text": "Ɔ̂" }, { "text": "Ɔ̃" }
-                ]
-              },
+              { "id": "K_Z", "text": "Z" }, { "id": "K_X", "text": "X" }, { "id": "K_C", "text": "C" }, { "id": "K_V", "text": "V" }, { "id": "K_B", "text": "B" }, { "id": "K_N", "text": "N" },               { "id": "K_M", "text": "M" },
               { "id": "K_BKSP", "text": "⌫", "width": "1.5" }
             ]
           },

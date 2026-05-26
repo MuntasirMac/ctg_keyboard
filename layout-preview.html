@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #1a1a2e; font-family: -apple-system, sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
+.keyboard { max-width: 420px; width: 100%; background: #16213e; border-radius: 16px; padding: 12px; box-shadow: 0 8px 32px rgba(0,0,0,.5); }
+.row { display: flex; gap: 4px; margin-bottom: 4px; }
+.key { flex: 1; background: #0f3460; color: #e6e6e6; border-radius: 6px; text-align: center; padding: 14px 2px; font-size: 14px; cursor: default; position: relative; min-height: 44px; display: flex; align-items: center; justify-content: center; }
+.key.special { background: #1a1a40; color: #888; font-size: 13px; }
+.key.sub { background: #533483; font-size: 11px; color: #ccc; padding: 6px 2px; min-height: 28px; flex: 0 0 auto; }
+.row-label { color: #555; font-size: 10px; text-align: left; padding-left: 4px; margin-top: 6px; margin-bottom: 2px; text-transform: uppercase; letter-spacing: 1px; }
+.subkeys { display: none; gap: 2px; margin-top: 2px; flex-wrap: wrap; }
+.subkeys.show { display: flex; }
+.toggle { color: #e94560; font-size: 10px; cursor: pointer; text-align: right; padding: 4px 8px 0; }
+.legend { color: #555; font-size: 11px; padding: 12px 4px 4px; }
+.legend span { display: inline-block; margin-right: 12px; }
+.legend .dot { width: 8px; height: 8px; border-radius: 2px; display: inline-block; margin-right: 3px; }
+h2 { color: #e6e6e6; text-align: center; font-size: 16px; font-weight: 500; margin-bottom: 12px; }
+h2 small { color: #888; font-size: 11px; }
+.layer-tabs { display: flex; gap: 4px; margin-bottom: 8px; justify-content: center; }
+.layer-tab { padding: 6px 20px; border-radius: 8px; background: #0f3460; color: #888; cursor: pointer; font-size: 13px; border: none; }
+.layer-tab.active { background: #e94560; color: #fff; }
+</style>
+</head>
+<body>
+
+<div class="keyboard" id="app">
+  <h2>Chittagonian Tonal <small>phone</small></h2>
+  <div class="layer-tabs">
+    <button class="layer-tab active" onclick="switchLayer('default')">default</button>
+    <button class="layer-tab" onclick="switchLayer('shift')">shift</button>
+  </div>
+  <div id="keyboard-rows"></div>
+  <div class="legend">
+    <span><span class="dot" style="background:#0f3460"></span> Normal key</span>
+    <span><span class="dot" style="background:#1a1a40"></span> Special key</span>
+    <span><span class="dot" style="background:#533483"></span> Subkey (long-press)</span>
+    <span style="color:#e94560;cursor:pointer" onclick="toggleSubkeys()">◈ Toggle subkeys</span>
+  </div>
+</div>
+
+<script>
+const layout = {
+  "default": {
+    "rows": [
+      { "id": 1, "keys": [
+        {"id":"K_1","text":"1"},{"id":"K_2","text":"2"},{"id":"K_3","text":"3"},{"id":"K_4","text":"4"},{"id":"K_5","text":"5"},
+        {"id":"K_6","text":"6"},{"id":"K_7","text":"7"},{"id":"K_8","text":"8"},{"id":"K_9","text":"9"},{"id":"K_0","text":"0"}
+      ]},
+      { "id": 2, "keys": [
+        {"id":"K_Q","text":"q","sk":[{"text":"é"},{"text":"ě"},{"text":"ê"},{"text":"ẽ"}]},
+        {"id":"K_W","text":"w"},
+        {"id":"K_E","text":"e","sk":[{"text":"é"},{"text":"ě"},{"text":"ê"},{"text":"ẽ"}]},
+        {"id":"K_R","text":"r"},
+        {"id":"K_T","text":"t","sk":[{"text":"ŧ"}]},
+        {"id":"K_Y","text":"y"},
+        {"id":"K_U","text":"u","sk":[{"text":"ú"},{"text":"ǔ"},{"text":"û"},{"text":"ũ"}]},
+        {"id":"K_I","text":"i","sk":[{"text":"í"},{"text":"ǐ"},{"text":"î"},{"text":"ĩ"}]},
+        {"id":"K_O","text":"o","sk":[{"text":"ó"},{"text":"ǒ"},{"text":"ô"},{"text":"õ"}]},
+        {"id":"K_P","text":"p"}
+      ]},
+      { "id": 3, "keys": [
+        {"id":"K_A","text":"a","sk":[{"text":"á"},{"text":"ǎ"},{"text":"â"},{"text":"ã"}]},
+        {"id":"K_S","text":"s"},
+        {"id":"K_D","text":"d","sk":[{"text":"đ"}]},
+        {"id":"K_F","text":"f"},{"id":"K_G","text":"g"},{"id":"K_H","text":"h"},{"id":"K_J","text":"j"},
+        {"id":"K_K","text":"k"},{"id":"K_L","text":"l"}
+      ]},
+      { "id": 4, "keys": [
+        {"id":"K_SHIFT","text":"▲","special":true,"width":1.5},
+        {"id":"K_Z","text":"z"},{"id":"K_X","text":"x"},{"id":"K_C","text":"c"},{"id":"K_V","text":"v"},
+        {"id":"K_B","text":"b"},{"id":"K_N","text":"n"},{"id":"K_M","text":"m"},
+        {"id":"U_0254","text":"ɔ","sk":[{"text":"ɔ́"},{"text":"ɔ̌"},{"text":"ɔ̂"},{"text":"ɔ̃"}]},
+        {"id":"K_BKSP","text":"⌫","special":true,"width":1.5}
+      ]},
+      { "id": 5, "keys": [
+        {"id":"K_LOPT","text":"🌐","special":true,"width":1.5},
+        {"id":"U_002C","text":",","sk":[{"text":"'"},{"text":"\""}]},
+        {"id":"K_SPACE","text":"Space","special":true,"width":5},
+        {"id":"U_002E","text":".","sk":[{"text":":"},{"text":";"},{"text":"?"},{"text":"!"}]},
+        {"id":"K_ENTER","text":"⏎","special":true,"width":1.5}
+      ]}
+    ]
+  },
+  "shift": {
+    "rows": [
+      { "id": 1, "keys": [
+        {"id":"K_1","text":"1"},{"id":"K_2","text":"2"},{"id":"K_3","text":"3"},{"id":"K_4","text":"4"},{"id":"K_5","text":"5"},
+        {"id":"K_6","text":"6"},{"id":"K_7","text":"7"},{"id":"K_8","text":"8"},{"id":"K_9","text":"9"},{"id":"K_0","text":"0"}
+      ]},
+      { "id": 2, "keys": [
+        {"id":"K_Q","text":"Q"},{"id":"K_W","text":"W"},
+        {"id":"K_E","text":"E","sk":[{"text":"É"},{"text":"Ě"},{"text":"Ê"},{"text":"Ẽ"}]},
+        {"id":"K_R","text":"R"},
+        {"id":"K_T","text":"T","sk":[{"text":"Ŧ"}]},
+        {"id":"K_Y","text":"Y"},{"id":"K_U","text":"U","sk":[{"text":"Ú"},{"text":"Ǔ"},{"text":"Û"},{"text":"Ũ"}]},
+        {"id":"K_I","text":"I","sk":[{"text":"Í"},{"text":"Ǐ"},{"text":"Î"},{"text":"Ĩ"}]},
+        {"id":"K_O","text":"O","sk":[{"text":"Ó"},{"text":"Ǒ"},{"text":"Ô"},{"text":"Õ"}]},
+        {"id":"K_P","text":"P"}
+      ]},
+      { "id": 3, "keys": [
+        {"id":"K_A","text":"A","sk":[{"text":"Á"},{"text":"Ǎ"},{"text":"Â"},{"text":"Ã"}]},
+        {"id":"K_S","text":"S"},{"id":"K_D","text":"D","sk":[{"text":"Đ"}]},
+        {"id":"K_F","text":"F"},{"id":"K_G","text":"G"},{"id":"K_H","text":"H"},{"id":"K_J","text":"J"},
+        {"id":"K_K","text":"K"},{"id":"K_L","text":"L"}
+      ]},
+      { "id": 4, "keys": [
+        {"id":"K_SHIFT","text":"▲","special":true,"width":1.5},
+        {"id":"K_Z","text":"Z"},{"id":"K_X","text":"X"},{"id":"K_C","text":"C"},{"id":"K_V","text":"V"},
+        {"id":"K_B","text":"B"},{"id":"K_N","text":"N"},{"id":"K_M","text":"M"},
+        {"id":"U_0186","text":"Ɔ","sk":[{"text":"Ɔ́"},{"text":"Ɔ̌"},{"text":"Ɔ̂"},{"text":"Ɔ̃"}]},
+        {"id":"K_BKSP","text":"⌫","special":true,"width":1.5}
+      ]},
+      { "id": 5, "keys": [
+        {"id":"K_LOPT","text":"🌐","special":true,"width":1.5},
+        {"id":"U_002C","text":",","sk":[{"text":"'"},{"text":"\""}]},
+        {"id":"K_SPACE","text":"Space","special":true,"width":5},
+        {"id":"U_002E","text":".","sk":[{"text":":"},{"text":";"},{"text":"?"},{"text":"!"}]},
+        {"id":"K_ENTER","text":"⏎","special":true,"width":1.5}
+      ]}
+    ]
+  }
+};
+
+let showSubkeys = false;
+
+function render(layerName) {
+  const layer = layout[layerName];
+  const container = document.getElementById('keyboard-rows');
+  container.innerHTML = '';
+  for (const row of layer.rows) {
+    const rowDiv = document.createElement('div');
+    rowDiv.className = 'row';
+    for (const k of row.keys) {
+      const keyDiv = document.createElement('div');
+      keyDiv.className = 'key' + (k.special ? ' special' : '');
+      keyDiv.textContent = k.text;
+      if (k.width) keyDiv.style.flex = String(k.width);
+      rowDiv.appendChild(keyDiv);
+
+      if (k.sk && k.sk.length) {
+        const skContainer = document.createElement('div');
+        skContainer.className = 'subkeys' + (showSubkeys ? ' show' : '');
+        for (const sk of k.sk) {
+          const skDiv = document.createElement('div');
+          skDiv.className = 'key sub';
+          skDiv.textContent = sk.text;
+          skContainer.appendChild(skDiv);
+        }
+        keyDiv.after(skContainer);
+      }
+    }
+    container.appendChild(rowDiv);
+  }
+
+  document.querySelectorAll('.layer-tab').forEach(t => t.classList.remove('active'));
+  document.querySelector(`.layer-tab[onclick*="'${layerName}'"]`).classList.add('active');
+}
+
+function switchLayer(name) { render(name); }
+function toggleSubkeys() { showSubkeys = !showSubkeys; render(document.querySelector('.layer-tab.active').textContent); }
+
+render('default');
+</script>
+</body>
+</html>

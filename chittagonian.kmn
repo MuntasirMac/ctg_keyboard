@@ -5,8 +5,20 @@ store(&TARGETS) 'mobile web'
 store(&LAYOUTFILE) 'chittagonian.keyman-touch'
 store(&KEYBOARDVERSION) '1.0.0'
 
+c These two statements below are strictly mandatory to bypass error KM0200F
+store(&ETHNOLOGUECODE) 'ctg'
+store(&LANGUAGE) 'x0445'
+
 begin Unicode > use(main)
 
 group(main) using keys
-+ [SHIFT U_0186] > 'Ɔ'
 + [U_0254] > 'ɔ'
++ [U_0254_ACUTE] > 'ɔ́'
++ [U_0254_CARON] > 'ɔ̌'
++ [U_0254_CIRCUM] > 'ɔ̂'
++ [U_0254_TILDE] > 'ɔ̃'
++ [SHIFT U_0186] > 'Ɔ'
++ [SHIFT U_0186_ACUTE] > 'Ɔ́'
++ [SHIFT U_0186_CARON] > 'Ɔ̌'
++ [SHIFT U_0186_CIRCUM] > 'Ɔ̂'
++ [SHIFT U_0186_TILDE] > 'Ɔ̃'
