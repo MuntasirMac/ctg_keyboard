@@ -1,12 +1,12 @@
 {
   "id": "chittagonian",
-  "name": "Chittagonian",
+  "name": "Sitainga",
   "author": "MuntasirMac",
   "version": "1.0.0",
   "languages": [
     {
       "id": "ctg",
-      "name": "Chittagonian"
+      "name": "Sitainga"
     }
   ],
   "packageFilename": "chittagonian.kmp",
