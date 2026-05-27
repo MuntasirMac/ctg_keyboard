@@ -10,12 +10,24 @@
               {
                 "id": "U_0071",
                 "text": "q",
-                "hint": "1"
+                "hint": "1",
+                "sk": [
+                  {
+                    "id": "U_0031",
+                    "text": "1"
+                  }
+                ]
               },
               {
                 "id": "U_0077",
                 "text": "w",
-                "hint": "2"
+                "hint": "2",
+                "sk": [
+                  {
+                    "id": "U_0032",
+                    "text": "2"
+                  }
+                ]
               },
               {
                 "id": "U_0065",
@@ -23,19 +35,19 @@
                 "sk": [
                   {
                     "id": "U_00E9",
-                    "text": "é"
+                    "text": "\u00e9"
                   },
                   {
                     "id": "U_011B",
-                    "text": "ě"
+                    "text": "\u011b"
                   },
                   {
                     "id": "U_00EA",
-                    "text": "ê"
+                    "text": "\u00ea"
                   },
                   {
                     "id": "U_1EBD",
-                    "text": "ẽ"
+                    "text": "\u1ebd"
                   }
                 ],
                 "hint": "3"
@@ -43,7 +55,13 @@
               {
                 "id": "U_0072",
                 "text": "r",
-                "hint": "4"
+                "hint": "4",
+                "sk": [
+                  {
+                    "id": "U_0034",
+                    "text": "4"
+                  }
+                ]
               },
               {
                 "id": "U_0074",
@@ -51,11 +69,11 @@
                 "sk": [
                   {
                     "id": "U_0167",
-                    "text": "ŧ"
+                    "text": "\u0167"
                   },
                   {
                     "id": "U_1E6D",
-                    "text": "ṭ"
+                    "text": "\u1e6d"
                   }
                 ],
                 "hint": "5"
@@ -63,7 +81,13 @@
               {
                 "id": "U_0079",
                 "text": "y",
-                "hint": "6"
+                "hint": "6",
+                "sk": [
+                  {
+                    "id": "U_0036",
+                    "text": "6"
+                  }
+                ]
               },
               {
                 "id": "U_0075",
@@ -71,19 +95,19 @@
                 "sk": [
                   {
                     "id": "U_00FA",
-                    "text": "ú"
+                    "text": "\u00fa"
                   },
                   {
                     "id": "U_01D4",
-                    "text": "ǔ"
+                    "text": "\u01d4"
                   },
                   {
                     "id": "U_00FB",
-                    "text": "û"
+                    "text": "\u00fb"
                   },
                   {
                     "id": "U_0169",
-                    "text": "ũ"
+                    "text": "\u0169"
                   }
                 ],
                 "hint": "7"
@@ -94,19 +118,19 @@
                 "sk": [
                   {
                     "id": "U_00ED",
-                    "text": "í"
+                    "text": "\u00ed"
                   },
                   {
                     "id": "U_01D0",
-                    "text": "ǐ"
+                    "text": "\u01d0"
                   },
                   {
                     "id": "U_00EE",
-                    "text": "î"
+                    "text": "\u00ee"
                   },
                   {
                     "id": "U_0129",
-                    "text": "ĩ"
+                    "text": "\u0129"
                   }
                 ],
                 "hint": "8"
@@ -117,19 +141,19 @@
                 "sk": [
                   {
                     "id": "U_00F3",
-                    "text": "ó"
+                    "text": "\u00f3"
                   },
                   {
                     "id": "U_01D2",
-                    "text": "ǒ"
+                    "text": "\u01d2"
                   },
                   {
                     "id": "U_00F4",
-                    "text": "ô"
+                    "text": "\u00f4"
                   },
                   {
                     "id": "U_00F5",
-                    "text": "õ"
+                    "text": "\u00f5"
                   }
                 ],
                 "hint": "9"
@@ -137,7 +161,13 @@
               {
                 "id": "U_0070",
                 "text": "p",
-                "hint": "0"
+                "hint": "0",
+                "sk": [
+                  {
+                    "id": "U_0030",
+                    "text": "0"
+                  }
+                ]
               }
             ]
           },
@@ -150,19 +180,19 @@
                 "sk": [
                   {
                     "id": "U_00E1",
-                    "text": "á"
+                    "text": "\u00e1"
                   },
                   {
                     "id": "U_01CE",
-                    "text": "ǎ"
+                    "text": "\u01ce"
                   },
                   {
                     "id": "U_00E2",
-                    "text": "â"
+                    "text": "\u00e2"
                   },
                   {
                     "id": "U_00E3",
-                    "text": "ã"
+                    "text": "\u00e3"
                   }
                 ],
                 "pad": 40,
@@ -171,7 +201,13 @@
               {
                 "id": "U_0073",
                 "text": "s",
-                "hint": "$"
+                "hint": "$",
+                "sk": [
+                  {
+                    "id": "U_0024",
+                    "text": "$"
+                  }
+                ]
               },
               {
                 "id": "U_0064",
@@ -179,11 +215,11 @@
                 "sk": [
                   {
                     "id": "U_0111",
-                    "text": "đ"
+                    "text": "\u0111"
                   },
                   {
                     "id": "U_1E0D",
-                    "text": "ḍ"
+                    "text": "\u1e0d"
                   }
                 ],
                 "hint": "<"
@@ -191,32 +227,68 @@
               {
                 "id": "U_0066",
                 "text": "f",
-                "hint": ">"
+                "hint": ">",
+                "sk": [
+                  {
+                    "id": "U_003E",
+                    "text": ">"
+                  }
+                ]
               },
               {
                 "id": "U_0067",
                 "text": "g",
-                "hint": "+"
+                "hint": "+",
+                "sk": [
+                  {
+                    "id": "U_002B",
+                    "text": "+"
+                  }
+                ]
               },
               {
                 "id": "U_0068",
                 "text": "h",
-                "hint": "-"
+                "hint": "-",
+                "sk": [
+                  {
+                    "id": "U_002D",
+                    "text": "-"
+                  }
+                ]
               },
               {
                 "id": "U_006A",
                 "text": "j",
-                "hint": "*"
+                "hint": "*",
+                "sk": [
+                  {
+                    "id": "U_002A",
+                    "text": "*"
+                  }
+                ]
               },
               {
                 "id": "U_006B",
                 "text": "k",
-                "hint": "/"
+                "hint": "/",
+                "sk": [
+                  {
+                    "id": "U_002F",
+                    "text": "/"
+                  }
+                ]
               },
               {
                 "id": "U_006C",
                 "text": "l",
-                "hint": "="
+                "hint": "=",
+                "sk": [
+                  {
+                    "id": "U_003D",
+                    "text": "="
+                  }
+                ]
               }
             ]
           },
@@ -225,7 +297,7 @@
             "key": [
               {
                 "id": "K_SHIFT",
-                "text": "▲",
+                "text": "\u25b2",
                 "width": "150",
                 "sp": 1,
                 "nextlayer": "shift"
@@ -233,37 +305,55 @@
               {
                 "id": "U_007A",
                 "text": "z",
-                "hint": "("
+                "hint": "(",
+                "sk": [
+                  {
+                    "id": "U_0028",
+                    "text": "("
+                  }
+                ]
               },
               {
                 "id": "U_0078",
                 "text": "x",
-                "hint": ")"
+                "hint": ")",
+                "sk": [
+                  {
+                    "id": "U_0029",
+                    "text": ")"
+                  }
+                ]
               },
               {
                 "id": "U_0063",
                 "text": "c",
-                "hint": "'"
+                "hint": "'",
+                "sk": [
+                  {
+                    "id": "U_0027",
+                    "text": "'"
+                  }
+                ]
               },
               {
                 "id": "U_0254",
-                "text": "ɔ",
+                "text": "\u0254",
                 "sk": [
                   {
                     "id": "U_E001",
-                    "text": "ɔ́"
+                    "text": "\u0254\u0301"
                   },
                   {
                     "id": "U_E002",
-                    "text": "ɔ̌"
+                    "text": "\u0254\u030c"
                   },
                   {
                     "id": "U_E003",
-                    "text": "ɔ̂"
+                    "text": "\u0254\u0302"
                   },
                   {
                     "id": "U_E004",
-                    "text": "ɔ̃"
+                    "text": "\u0254\u0303"
                   }
                 ],
                 "hint": "\""
@@ -271,7 +361,13 @@
               {
                 "id": "U_0062",
                 "text": "b",
-                "hint": "!"
+                "hint": "!",
+                "sk": [
+                  {
+                    "id": "U_0021",
+                    "text": "!"
+                  }
+                ]
               },
               {
                 "id": "U_006E",
@@ -279,11 +375,11 @@
                 "sk": [
                   {
                     "id": "U_00F1",
-                    "text": "ñ"
+                    "text": "\u00f1"
                   },
                   {
                     "id": "U_1E45",
-                    "text": "ṅ"
+                    "text": "\u1e45"
                   }
                 ],
                 "hint": "?"
@@ -291,11 +387,17 @@
               {
                 "id": "U_006D",
                 "text": "m",
-                "hint": ","
+                "hint": ",",
+                "sk": [
+                  {
+                    "id": "U_002C",
+                    "text": ","
+                  }
+                ]
               },
               {
                 "id": "K_BKSP",
-                "text": "⌫",
+                "text": "\u232b",
                 "width": "150"
               }
             ]
@@ -312,7 +414,7 @@
               },
               {
                 "id": "K_LOPT",
-                "text": "🌐",
+                "text": "\ud83c\udf10",
                 "width": "100"
               },
               {
@@ -358,7 +460,7 @@
               },
               {
                 "id": "K_ENTER",
-                "text": "⏎",
+                "text": "\u23ce",
                 "width": "150"
               }
             ]
@@ -375,13 +477,25 @@
                 "id": "U_0051",
                 "text": "Q",
                 "nextlayer": "default",
-                "hint": "1"
+                "hint": "1",
+                "sk": [
+                  {
+                    "id": "U_0031",
+                    "text": "1"
+                  }
+                ]
               },
               {
                 "id": "U_0057",
                 "text": "W",
                 "nextlayer": "default",
-                "hint": "2"
+                "hint": "2",
+                "sk": [
+                  {
+                    "id": "U_0032",
+                    "text": "2"
+                  }
+                ]
               },
               {
                 "id": "U_0045",
@@ -389,19 +503,19 @@
                 "sk": [
                   {
                     "id": "U_00C9",
-                    "text": "É"
+                    "text": "\u00c9"
                   },
                   {
                     "id": "U_011A",
-                    "text": "Ě"
+                    "text": "\u011a"
                   },
                   {
                     "id": "U_00CA",
-                    "text": "Ê"
+                    "text": "\u00ca"
                   },
                   {
                     "id": "U_1EBC",
-                    "text": "Ẽ"
+                    "text": "\u1ebc"
                   }
                 ],
                 "nextlayer": "default",
@@ -411,7 +525,13 @@
                 "id": "U_0052",
                 "text": "R",
                 "nextlayer": "default",
-                "hint": "4"
+                "hint": "4",
+                "sk": [
+                  {
+                    "id": "U_0034",
+                    "text": "4"
+                  }
+                ]
               },
               {
                 "id": "U_0054",
@@ -419,11 +539,11 @@
                 "sk": [
                   {
                     "id": "U_0166",
-                    "text": "Ŧ"
+                    "text": "\u0166"
                   },
                   {
                     "id": "U_1E6C",
-                    "text": "Ṭ"
+                    "text": "\u1e6c"
                   }
                 ],
                 "nextlayer": "default",
@@ -433,7 +553,13 @@
                 "id": "U_0059",
                 "text": "Y",
                 "nextlayer": "default",
-                "hint": "6"
+                "hint": "6",
+                "sk": [
+                  {
+                    "id": "U_0036",
+                    "text": "6"
+                  }
+                ]
               },
               {
                 "id": "U_0055",
@@ -441,19 +567,19 @@
                 "sk": [
                   {
                     "id": "U_00DA",
-                    "text": "Ú"
+                    "text": "\u00da"
                   },
                   {
                     "id": "U_01D3",
-                    "text": "Ǔ"
+                    "text": "\u01d3"
                   },
                   {
                     "id": "U_00DB",
-                    "text": "Û"
+                    "text": "\u00db"
                   },
                   {
                     "id": "U_0168",
-                    "text": "Ũ"
+                    "text": "\u0168"
                   }
                 ],
                 "nextlayer": "default",
@@ -465,19 +591,19 @@
                 "sk": [
                   {
                     "id": "U_00CD",
-                    "text": "Í"
+                    "text": "\u00cd"
                   },
                   {
                     "id": "U_01CF",
-                    "text": "Ǐ"
+                    "text": "\u01cf"
                   },
                   {
                     "id": "U_00CE",
-                    "text": "Î"
+                    "text": "\u00ce"
                   },
                   {
                     "id": "U_0128",
-                    "text": "Ĩ"
+                    "text": "\u0128"
                   }
                 ],
                 "nextlayer": "default",
@@ -489,19 +615,19 @@
                 "sk": [
                   {
                     "id": "U_00D3",
-                    "text": "Ó"
+                    "text": "\u00d3"
                   },
                   {
                     "id": "U_01D1",
-                    "text": "Ǒ"
+                    "text": "\u01d1"
                   },
                   {
                     "id": "U_00D4",
-                    "text": "Ô"
+                    "text": "\u00d4"
                   },
                   {
                     "id": "U_00D5",
-                    "text": "Õ"
+                    "text": "\u00d5"
                   }
                 ],
                 "nextlayer": "default",
@@ -511,7 +637,13 @@
                 "id": "U_0050",
                 "text": "P",
                 "nextlayer": "default",
-                "hint": "0"
+                "hint": "0",
+                "sk": [
+                  {
+                    "id": "U_0030",
+                    "text": "0"
+                  }
+                ]
               }
             ]
           },
@@ -524,19 +656,19 @@
                 "sk": [
                   {
                     "id": "U_00C1",
-                    "text": "Á"
+                    "text": "\u00c1"
                   },
                   {
                     "id": "U_01CD",
-                    "text": "Ǎ"
+                    "text": "\u01cd"
                   },
                   {
                     "id": "U_00C2",
-                    "text": "Â"
+                    "text": "\u00c2"
                   },
                   {
                     "id": "U_00C3",
-                    "text": "Ã"
+                    "text": "\u00c3"
                   }
                 ],
                 "nextlayer": "default",
@@ -547,7 +679,13 @@
                 "id": "U_0053",
                 "text": "S",
                 "nextlayer": "default",
-                "hint": "$"
+                "hint": "$",
+                "sk": [
+                  {
+                    "id": "U_0024",
+                    "text": "$"
+                  }
+                ]
               },
               {
                 "id": "U_0044",
@@ -555,11 +693,11 @@
                 "sk": [
                   {
                     "id": "U_0110",
-                    "text": "Đ"
+                    "text": "\u0110"
                   },
                   {
                     "id": "U_1E0C",
-                    "text": "Ḍ"
+                    "text": "\u1e0c"
                   }
                 ],
                 "nextlayer": "default",
@@ -569,37 +707,73 @@
                 "id": "U_0046",
                 "text": "F",
                 "nextlayer": "default",
-                "hint": ">"
+                "hint": ">",
+                "sk": [
+                  {
+                    "id": "U_003E",
+                    "text": ">"
+                  }
+                ]
               },
               {
                 "id": "U_0047",
                 "text": "G",
                 "nextlayer": "default",
-                "hint": "+"
+                "hint": "+",
+                "sk": [
+                  {
+                    "id": "U_002B",
+                    "text": "+"
+                  }
+                ]
               },
               {
                 "id": "U_0048",
                 "text": "H",
                 "nextlayer": "default",
-                "hint": "-"
+                "hint": "-",
+                "sk": [
+                  {
+                    "id": "U_002D",
+                    "text": "-"
+                  }
+                ]
               },
               {
                 "id": "U_004A",
                 "text": "J",
                 "nextlayer": "default",
-                "hint": "*"
+                "hint": "*",
+                "sk": [
+                  {
+                    "id": "U_002A",
+                    "text": "*"
+                  }
+                ]
               },
               {
                 "id": "U_004B",
                 "text": "K",
                 "nextlayer": "default",
-                "hint": "/"
+                "hint": "/",
+                "sk": [
+                  {
+                    "id": "U_002F",
+                    "text": "/"
+                  }
+                ]
               },
               {
                 "id": "U_004C",
                 "text": "L",
                 "nextlayer": "default",
-                "hint": "="
+                "hint": "=",
+                "sk": [
+                  {
+                    "id": "U_003D",
+                    "text": "="
+                  }
+                ]
               }
             ]
           },
@@ -608,7 +782,7 @@
             "key": [
               {
                 "id": "K_SHIFT",
-                "text": "▲",
+                "text": "\u25b2",
                 "width": "150",
                 "sp": 1,
                 "nextlayer": "default"
@@ -617,39 +791,57 @@
                 "id": "U_005A",
                 "text": "Z",
                 "nextlayer": "default",
-                "hint": "("
+                "hint": "(",
+                "sk": [
+                  {
+                    "id": "U_0028",
+                    "text": "("
+                  }
+                ]
               },
               {
                 "id": "U_0058",
                 "text": "X",
                 "nextlayer": "default",
-                "hint": ")"
+                "hint": ")",
+                "sk": [
+                  {
+                    "id": "U_0029",
+                    "text": ")"
+                  }
+                ]
               },
               {
                 "id": "U_0043",
                 "text": "C",
                 "nextlayer": "default",
-                "hint": "'"
+                "hint": "'",
+                "sk": [
+                  {
+                    "id": "U_0027",
+                    "text": "'"
+                  }
+                ]
               },
               {
                 "id": "U_0186",
-                "text": "Ɔ",
+                "text": "\u0186",
                 "sk": [
                   {
                     "id": "U_E005",
-                    "text": "Ɔ́"
+                    "text": "\u0186\u0301"
                   },
                   {
                     "id": "U_E006",
-                    "text": "Ɔ̌"
+                    "text": "\u0186\u030c"
                   },
                   {
                     "id": "U_E007",
-                    "text": "Ɔ̂"
+                    "text": "\u0186\u0302"
                   },
                   {
                     "id": "U_E008",
-                    "text": "Ɔ̃"
+                    "text": "\u0186\u0303"
                   }
                 ],
                 "nextlayer": "default",
@@ -659,7 +851,13 @@
                 "id": "U_0042",
                 "text": "B",
                 "nextlayer": "default",
-                "hint": "!"
+                "hint": "!",
+                "sk": [
+                  {
+                    "id": "U_0021",
+                    "text": "!"
+                  }
+                ]
               },
               {
                 "id": "U_004E",
@@ -667,11 +865,11 @@
                 "sk": [
                   {
                     "id": "U_00D1",
-                    "text": "Ñ"
+                    "text": "\u00d1"
                   },
                   {
                     "id": "U_1E44",
-                    "text": "Ṅ"
+                    "text": "\u1e44"
                   }
                 ],
                 "nextlayer": "default",
@@ -681,11 +879,17 @@
                 "id": "U_004D",
                 "text": "M",
                 "nextlayer": "default",
-                "hint": ","
+                "hint": ",",
+                "sk": [
+                  {
+                    "id": "U_002C",
+                    "text": ","
+                  }
+                ]
               },
               {
                 "id": "K_BKSP",
-                "text": "⌫",
+                "text": "\u232b",
                 "width": "150"
               }
             ]
@@ -702,7 +906,7 @@
               },
               {
                 "id": "K_LOPT",
-                "text": "🌐",
+                "text": "\ud83c\udf10",
                 "width": "100"
               },
               {
@@ -750,7 +954,7 @@
               },
               {
                 "id": "K_ENTER",
-                "text": "⏎",
+                "text": "\u23ce",
                 "width": "150"
               }
             ]
@@ -894,7 +1098,7 @@
               },
               {
                 "id": "K_BKSP",
-                "text": "⌫",
+                "text": "\u232b",
                 "width": "200"
               }
             ]
@@ -911,7 +1115,7 @@
               },
               {
                 "id": "K_LOPT",
-                "text": "🌐",
+                "text": "\ud83c\udf10",
                 "width": "100"
               },
               {
@@ -929,7 +1133,7 @@
               },
               {
                 "id": "K_ENTER",
-                "text": "⏎",
+                "text": "\u23ce",
                 "width": "150"
               }
             ]
@@ -951,52 +1155,112 @@
               {
                 "id": "K_1",
                 "text": "1",
-                "hint": "!"
+                "hint": "!",
+                "sk": [
+                  {
+                    "id": "U_0021",
+                    "text": "!"
+                  }
+                ]
               },
               {
                 "id": "K_2",
                 "text": "2",
-                "hint": "@"
+                "hint": "@",
+                "sk": [
+                  {
+                    "id": "U_0040",
+                    "text": "@"
+                  }
+                ]
               },
               {
                 "id": "K_3",
                 "text": "3",
-                "hint": "#"
+                "hint": "#",
+                "sk": [
+                  {
+                    "id": "U_0023",
+                    "text": "#"
+                  }
+                ]
               },
               {
                 "id": "K_4",
                 "text": "4",
-                "hint": "$"
+                "hint": "$",
+                "sk": [
+                  {
+                    "id": "U_0024",
+                    "text": "$"
+                  }
+                ]
               },
               {
                 "id": "K_5",
                 "text": "5",
-                "hint": "%"
+                "hint": "%",
+                "sk": [
+                  {
+                    "id": "U_0025",
+                    "text": "%"
+                  }
+                ]
               },
               {
                 "id": "K_6",
                 "text": "6",
-                "hint": "^"
+                "hint": "^",
+                "sk": [
+                  {
+                    "id": "U_005E",
+                    "text": "^"
+                  }
+                ]
               },
               {
                 "id": "K_7",
                 "text": "7",
-                "hint": "&"
+                "hint": "&",
+                "sk": [
+                  {
+                    "id": "U_0026",
+                    "text": "&"
+                  }
+                ]
               },
               {
                 "id": "K_8",
                 "text": "8",
-                "hint": "*"
+                "hint": "*",
+                "sk": [
+                  {
+                    "id": "U_002A",
+                    "text": "*"
+                  }
+                ]
               },
               {
                 "id": "K_9",
                 "text": "9",
-                "hint": "("
+                "hint": "(",
+                "sk": [
+                  {
+                    "id": "U_0028",
+                    "text": "("
+                  }
+                ]
               },
               {
                 "id": "K_0",
                 "text": "0",
-                "hint": ")"
+                "hint": ")",
+                "sk": [
+                  {
+                    "id": "U_0029",
+                    "text": ")"
+                  }
+                ]
               }
             ]
           },
@@ -1018,19 +1282,19 @@
                 "sk": [
                   {
                     "id": "U_00E9",
-                    "text": "é"
+                    "text": "\u00e9"
                   },
                   {
                     "id": "U_011B",
-                    "text": "ě"
+                    "text": "\u011b"
                   },
                   {
                     "id": "U_00EA",
-                    "text": "ê"
+                    "text": "\u00ea"
                   },
                   {
                     "id": "U_1EBD",
-                    "text": "ẽ"
+                    "text": "\u1ebd"
                   }
                 ]
               },
@@ -1044,11 +1308,11 @@
                 "sk": [
                   {
                     "id": "U_0167",
-                    "text": "ŧ"
+                    "text": "\u0167"
                   },
                   {
                     "id": "U_1E6D",
-                    "text": "ṭ"
+                    "text": "\u1e6d"
                   }
                 ]
               },
@@ -1062,19 +1326,19 @@
                 "sk": [
                   {
                     "id": "U_00FA",
-                    "text": "ú"
+                    "text": "\u00fa"
                   },
                   {
                     "id": "U_01D4",
-                    "text": "ǔ"
+                    "text": "\u01d4"
                   },
                   {
                     "id": "U_00FB",
-                    "text": "û"
+                    "text": "\u00fb"
                   },
                   {
                     "id": "U_0169",
-                    "text": "ũ"
+                    "text": "\u0169"
                   }
                 ]
               },
@@ -1084,19 +1348,19 @@
                 "sk": [
                   {
                     "id": "U_00ED",
-                    "text": "í"
+                    "text": "\u00ed"
                   },
                   {
                     "id": "U_01D0",
-                    "text": "ǐ"
+                    "text": "\u01d0"
                   },
                   {
                     "id": "U_00EE",
-                    "text": "î"
+                    "text": "\u00ee"
                   },
                   {
                     "id": "U_0129",
-                    "text": "ĩ"
+                    "text": "\u0129"
                   }
                 ]
               },
@@ -1106,19 +1370,19 @@
                 "sk": [
                   {
                     "id": "U_00F3",
-                    "text": "ó"
+                    "text": "\u00f3"
                   },
                   {
                     "id": "U_01D2",
-                    "text": "ǒ"
+                    "text": "\u01d2"
                   },
                   {
                     "id": "U_00F4",
-                    "text": "ô"
+                    "text": "\u00f4"
                   },
                   {
                     "id": "U_00F5",
-                    "text": "õ"
+                    "text": "\u00f5"
                   }
                 ]
               },
@@ -1137,19 +1401,19 @@
                 "sk": [
                   {
                     "id": "U_00E1",
-                    "text": "á"
+                    "text": "\u00e1"
                   },
                   {
                     "id": "U_01CE",
-                    "text": "ǎ"
+                    "text": "\u01ce"
                   },
                   {
                     "id": "U_00E2",
-                    "text": "â"
+                    "text": "\u00e2"
                   },
                   {
                     "id": "U_00E3",
-                    "text": "ã"
+                    "text": "\u00e3"
                   }
                 ]
               },
@@ -1163,11 +1427,11 @@
                 "sk": [
                   {
                     "id": "U_0111",
-                    "text": "đ"
+                    "text": "\u0111"
                   },
                   {
                     "id": "U_1E0D",
-                    "text": "ḍ"
+                    "text": "\u1e0d"
                   }
                 ]
               },
@@ -1202,7 +1466,7 @@
             "key": [
               {
                 "id": "K_SHIFT",
-                "text": "▲",
+                "text": "\u25b2",
                 "width": "150",
                 "sp": 1,
                 "nextlayer": "shift"
@@ -1221,23 +1485,23 @@
               },
               {
                 "id": "U_0254",
-                "text": "ɔ",
+                "text": "\u0254",
                 "sk": [
                   {
                     "id": "U_E001",
-                    "text": "ɔ́"
+                    "text": "\u0254\u0301"
                   },
                   {
                     "id": "U_E002",
-                    "text": "ɔ̌"
+                    "text": "\u0254\u030c"
                   },
                   {
                     "id": "U_E003",
-                    "text": "ɔ̂"
+                    "text": "\u0254\u0302"
                   },
                   {
                     "id": "U_E004",
-                    "text": "ɔ̃"
+                    "text": "\u0254\u0303"
                   }
                 ],
                 "hint": "\""
@@ -1252,11 +1516,11 @@
                 "sk": [
                   {
                     "id": "U_00F1",
-                    "text": "ñ"
+                    "text": "\u00f1"
                   },
                   {
                     "id": "U_1E45",
-                    "text": "ṅ"
+                    "text": "\u1e45"
                   }
                 ]
               },
@@ -1266,7 +1530,7 @@
               },
               {
                 "id": "K_BKSP",
-                "text": "⌫",
+                "text": "\u232b",
                 "width": "150"
               }
             ]
@@ -1283,7 +1547,7 @@
               },
               {
                 "id": "K_LOPT",
-                "text": "🌐",
+                "text": "\ud83c\udf10",
                 "width": "100"
               },
               {
@@ -1329,7 +1593,7 @@
               },
               {
                 "id": "K_ENTER",
-                "text": "⏎",
+                "text": "\u23ce",
                 "width": "150"
               }
             ]
@@ -1346,61 +1610,121 @@
                 "id": "K_1",
                 "text": "1",
                 "nextlayer": "default",
-                "hint": "!"
+                "hint": "!",
+                "sk": [
+                  {
+                    "id": "U_0021",
+                    "text": "!"
+                  }
+                ]
               },
               {
                 "id": "K_2",
                 "text": "2",
                 "nextlayer": "default",
-                "hint": "@"
+                "hint": "@",
+                "sk": [
+                  {
+                    "id": "U_0040",
+                    "text": "@"
+                  }
+                ]
               },
               {
                 "id": "K_3",
                 "text": "3",
                 "nextlayer": "default",
-                "hint": "#"
+                "hint": "#",
+                "sk": [
+                  {
+                    "id": "U_0023",
+                    "text": "#"
+                  }
+                ]
               },
               {
                 "id": "K_4",
                 "text": "4",
                 "nextlayer": "default",
-                "hint": "$"
+                "hint": "$",
+                "sk": [
+                  {
+                    "id": "U_0024",
+                    "text": "$"
+                  }
+                ]
               },
               {
                 "id": "K_5",
                 "text": "5",
                 "nextlayer": "default",
-                "hint": "%"
+                "hint": "%",
+                "sk": [
+                  {
+                    "id": "U_0025",
+                    "text": "%"
+                  }
+                ]
               },
               {
                 "id": "K_6",
                 "text": "6",
                 "nextlayer": "default",
-                "hint": "^"
+                "hint": "^",
+                "sk": [
+                  {
+                    "id": "U_005E",
+                    "text": "^"
+                  }
+                ]
               },
               {
                 "id": "K_7",
                 "text": "7",
                 "nextlayer": "default",
-                "hint": "&"
+                "hint": "&",
+                "sk": [
+                  {
+                    "id": "U_0026",
+                    "text": "&"
+                  }
+                ]
               },
               {
                 "id": "K_8",
                 "text": "8",
                 "nextlayer": "default",
-                "hint": "*"
+                "hint": "*",
+                "sk": [
+                  {
+                    "id": "U_002A",
+                    "text": "*"
+                  }
+                ]
               },
               {
                 "id": "K_9",
                 "text": "9",
                 "nextlayer": "default",
-                "hint": "("
+                "hint": "(",
+                "sk": [
+                  {
+                    "id": "U_0028",
+                    "text": "("
+                  }
+                ]
               },
               {
                 "id": "K_0",
                 "text": "0",
                 "nextlayer": "default",
-                "hint": ")"
+                "hint": ")",
+                "sk": [
+                  {
+                    "id": "U_0029",
+                    "text": ")"
+                  }
+                ]
               }
             ]
           },
@@ -1424,19 +1748,19 @@
                 "sk": [
                   {
                     "id": "U_00C9",
-                    "text": "É"
+                    "text": "\u00c9"
                   },
                   {
                     "id": "U_011A",
-                    "text": "Ě"
+                    "text": "\u011a"
                   },
                   {
                     "id": "U_00CA",
-                    "text": "Ê"
+                    "text": "\u00ca"
                   },
                   {
                     "id": "U_1EBC",
-                    "text": "Ẽ"
+                    "text": "\u1ebc"
                   }
                 ],
                 "nextlayer": "default"
@@ -1452,11 +1776,11 @@
                 "sk": [
                   {
                     "id": "U_0166",
-                    "text": "Ŧ"
+                    "text": "\u0166"
                   },
                   {
                     "id": "U_1E6C",
-                    "text": "Ṭ"
+                    "text": "\u1e6c"
                   }
                 ],
                 "nextlayer": "default"
@@ -1472,19 +1796,19 @@
                 "sk": [
                   {
                     "id": "U_00DA",
-                    "text": "Ú"
+                    "text": "\u00da"
                   },
                   {
                     "id": "U_01D3",
-                    "text": "Ǔ"
+                    "text": "\u01d3"
                   },
                   {
                     "id": "U_00DB",
-                    "text": "Û"
+                    "text": "\u00db"
                   },
                   {
                     "id": "U_0168",
-                    "text": "Ũ"
+                    "text": "\u0168"
                   }
                 ],
                 "nextlayer": "default"
@@ -1495,19 +1819,19 @@
                 "sk": [
                   {
                     "id": "U_00CD",
-                    "text": "Í"
+                    "text": "\u00cd"
                   },
                   {
                     "id": "U_01CF",
-                    "text": "Ǐ"
+                    "text": "\u01cf"
                   },
                   {
                     "id": "U_00CE",
-                    "text": "Î"
+                    "text": "\u00ce"
                   },
                   {
                     "id": "U_0128",
-                    "text": "Ĩ"
+                    "text": "\u0128"
                   }
                 ],
                 "nextlayer": "default"
@@ -1518,19 +1842,19 @@
                 "sk": [
                   {
                     "id": "U_00D3",
-                    "text": "Ó"
+                    "text": "\u00d3"
                   },
                   {
                     "id": "U_01D1",
-                    "text": "Ǒ"
+                    "text": "\u01d1"
                   },
                   {
                     "id": "U_00D4",
-                    "text": "Ô"
+                    "text": "\u00d4"
                   },
                   {
                     "id": "U_00D5",
-                    "text": "Õ"
+                    "text": "\u00d5"
                   }
                 ],
                 "nextlayer": "default"
@@ -1551,19 +1875,19 @@
                 "sk": [
                   {
                     "id": "U_00C1",
-                    "text": "Á"
+                    "text": "\u00c1"
                   },
                   {
                     "id": "U_01CD",
-                    "text": "Ǎ"
+                    "text": "\u01cd"
                   },
                   {
                     "id": "U_00C2",
-                    "text": "Â"
+                    "text": "\u00c2"
                   },
                   {
                     "id": "U_00C3",
-                    "text": "Ã"
+                    "text": "\u00c3"
                   }
                 ],
                 "nextlayer": "default"
@@ -1579,11 +1903,11 @@
                 "sk": [
                   {
                     "id": "U_0110",
-                    "text": "Đ"
+                    "text": "\u0110"
                   },
                   {
                     "id": "U_1E0C",
-                    "text": "Ḍ"
+                    "text": "\u1e0c"
                   }
                 ],
                 "nextlayer": "default"
@@ -1625,7 +1949,7 @@
             "key": [
               {
                 "id": "K_SHIFT",
-                "text": "▲",
+                "text": "\u25b2",
                 "width": "150",
                 "sp": 1,
                 "nextlayer": "default"
@@ -1647,23 +1971,23 @@
               },
               {
                 "id": "U_0186",
-                "text": "Ɔ",
+                "text": "\u0186",
                 "sk": [
                   {
                     "id": "U_E005",
-                    "text": "Ɔ́"
+                    "text": "\u0186\u0301"
                   },
                   {
                     "id": "U_E006",
-                    "text": "Ɔ̌"
+                    "text": "\u0186\u030c"
                   },
                   {
                     "id": "U_E007",
-                    "text": "Ɔ̂"
+                    "text": "\u0186\u0302"
                   },
                   {
                     "id": "U_E008",
-                    "text": "Ɔ̃"
+                    "text": "\u0186\u0303"
                   }
                 ],
                 "nextlayer": "default"
@@ -1679,11 +2003,11 @@
                 "sk": [
                   {
                     "id": "U_00D1",
-                    "text": "Ñ"
+                    "text": "\u00d1"
                   },
                   {
                     "id": "U_1E44",
-                    "text": "Ṅ"
+                    "text": "\u1e44"
                   }
                 ],
                 "nextlayer": "default"
@@ -1695,7 +2019,7 @@
               },
               {
                 "id": "K_BKSP",
-                "text": "⌫",
+                "text": "\u232b",
                 "width": "150"
               }
             ]
@@ -1712,7 +2036,7 @@
               },
               {
                 "id": "K_LOPT",
-                "text": "🌐",
+                "text": "\ud83c\udf10",
                 "width": "100"
               },
               {
@@ -1760,7 +2084,7 @@
               },
               {
                 "id": "K_ENTER",
-                "text": "⏎",
+                "text": "\u23ce",
                 "width": "150"
               }
             ]
@@ -1911,7 +2235,7 @@
             "key": [
               {
                 "id": "K_LOPT",
-                "text": "🌐",
+                "text": "\ud83c\udf10",
                 "width": "100"
               },
               {
@@ -1944,7 +2268,7 @@
               },
               {
                 "id": "K_BKSP",
-                "text": "⌫",
+                "text": "\u232b",
                 "width": "200"
               }
             ]
@@ -1974,7 +2298,7 @@
               },
               {
                 "id": "K_ENTER",
-                "text": "⏎",
+                "text": "\u23ce",
                 "width": "150"
               }
             ]
