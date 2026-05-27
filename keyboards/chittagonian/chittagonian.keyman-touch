@@ -460,12 +460,14 @@
                     "id": "U_0021",
                     "text": "!"
                   }
-                ]
+                ],
+                "nextlayer": "shift"
               },
               {
                 "id": "K_ENTER",
                 "text": "\u23ce",
-                "width": "150"
+                "width": "150",
+                "nextlayer": "shift"
               }
             ]
           }
@@ -958,12 +960,13 @@
                     "text": "!"
                   }
                 ],
-                "nextlayer": "default"
+                "nextlayer": "shift"
               },
               {
                 "id": "K_ENTER",
                 "text": "\u23ce",
-                "width": "150"
+                "width": "150",
+                "nextlayer": "shift"
               }
             ]
           }
@@ -1137,12 +1140,14 @@
               },
               {
                 "id": "U_002E",
-                "text": "."
+                "text": ".",
+                "nextlayer": "shift"
               },
               {
                 "id": "K_ENTER",
                 "text": "\u23ce",
-                "width": "150"
+                "width": "150",
+                "nextlayer": "shift"
               }
             ]
           }
@@ -1603,12 +1608,14 @@
                     "id": "U_0021",
                     "text": "!"
                   }
-                ]
+                ],
+                "nextlayer": "shift"
               },
               {
                 "id": "K_ENTER",
                 "text": "\u23ce",
-                "width": "150"
+                "width": "150",
+                "nextlayer": "shift"
               }
             ]
           }
@@ -2100,12 +2107,13 @@
                     "text": "!"
                   }
                 ],
-                "nextlayer": "default"
+                "nextlayer": "shift"
               },
               {
                 "id": "K_ENTER",
                 "text": "\u23ce",
-                "width": "150"
+                "width": "150",
+                "nextlayer": "shift"
               }
             ]
           }
@@ -2314,12 +2322,14 @@
               },
               {
                 "id": "U_002E",
-                "text": "."
+                "text": ".",
+                "nextlayer": "shift"
               },
               {
                 "id": "K_ENTER",
                 "text": "\u23ce",
-                "width": "150"
+                "width": "150",
+                "nextlayer": "shift"
               }
             ]
           }
