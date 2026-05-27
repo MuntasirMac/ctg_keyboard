@@ -37,3 +37,8 @@ group(main) using keys
 + [SHIFT U_E007] > 'Ɔ̂'
 + [SHIFT U_E008] > 'Ɔ̃'
 
+c Auto-capitalization after sentence-ending characters
++ [U_002E] > '.'
++ [U_003F] > '?'
++ [U_0021] > '!'
+
