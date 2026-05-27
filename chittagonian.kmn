@@ -9,9 +9,11 @@ c These two statements below are strictly mandatory to bypass error KM0200F
 store(&ETHNOLOGUECODE) 'ctg'
 store(&LANGUAGE) 'x0445'
 
-store(&CasedKeys) [K_A] .. [K_Z]
+store(&CasedKeys) [U_0061] .. [U_007A]
 
 begin Unicode > use(main)
+begin NewContext > use(NewContext)
+begin PostKeystroke > use(PostKeystroke)
 
 group(main) using keys
 + [U_0111] > 'đ'
@@ -37,8 +39,18 @@ group(main) using keys
 + [SHIFT U_E007] > 'Ɔ̂'
 + [SHIFT U_E008] > 'Ɔ̃'
 
-c Auto-capitalization after sentence-ending characters
-+ [U_002E] > '.'
-+ [U_003F] > '?'
-+ [U_0021] > '!'
+store(sentencePunctuation) '.?!'
+store(whitespace) ' ' U+00A0 U+000D U+000A U+0009
 
+group(NewContext) readonly
+    platform('touch') > use(detectStartOfSentence)
+
+group(PostKeystroke) readonly
+    platform('touch') if(&newLayer = "") > use(detectStartOfSentence)
+
+group(detectStartOfSentence) readonly
+    nul > layer('shift')
+    any(sentencePunctuation) any(whitespace) > layer('shift')
+    any(sentencePunctuation) any(whitespace) any(whitespace) > layer('shift')
+    any(sentencePunctuation) any(whitespace) any(whitespace) any(whitespace) > layer('shift')
+    nomatch > layer('default')
